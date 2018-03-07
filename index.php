@@ -8,25 +8,26 @@
     <!-- Stijltjes -->
 	 <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.css" />
    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+   <link rel="stylesheet" type="text/css" media="screen" href="css/animate.css" />
    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery-ui.css" />
 
 	 <!-- fonts -->
 	 <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet"> 
 
 </head>
-<body>
+<body style="overflow-x: hidden;">
   	<!-- Navbar -->
-	<nav class="navbar navbar-toggleable-md navbar-inverse bg-blur text-center fixed-top" id="navbar">
+	<nav class="navbar navbar-toggleable-md navbar-inverse bg-blur text-center fixed-top animated fadeIn" id="navbar">
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="container">
-			<a class="navbar-brand" href="#">Radio Twentestad</a>
+		<div class="container page-scroll">
+			<a class="navbar-brand" href="#top">Radio Twentestad</a>
 
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Luisteren<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#luisteren">Luisteren<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Schema</a>
@@ -44,41 +45,42 @@
 			</div>
 		</div>
 	</nav>
-    <!-- Header -->
-    <div class="parallax">
-      <div class="container header-textblock text-center">
-		  <h1 class="display-3 header-text"><left>RADIO</left> <right>TWENTESTAD</right></h1>
-        <p class="page-scroll"><a class="header-button" href="#first" role="button">Lees verder</a></p>
-      </div>
+  <!-- Header -->
+  <div id="top" class="parallax header">
+    <div class="container header-textblock text-center">
+    <h1 class="display-3 header-text animated bounceInLeft"><left>RADIO</left> <right>TWENTESTAD</right></h1>
+      <p class="page-scroll animated bounceInRight"><a class="header-button" href="#luisteren" role="button">Lees verder</a></p>
     </div>
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4" id="first">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
+  </div>
+
+  <!-- body -->
+  <div class="main">
+    <section id="luisteren" class="parallax luisteren text-center">
+      <div class="container">
+        <div class="header-container"><h2 class="header-text header-luisteren">LUISTEREN</h2></div>
+        <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+        <script type="text/javascript">
+          MRP.insert({
+          'url':'http://radioloho.gkstreamen.nl:8044/;',
+          'codec':'mp3',
+          'volume':75,
+          'autoplay':false,
+          'buffering':5,
+          'title':'radioloho',
+          'welcome':'Welcome at radioloho',
+          'bgcolor':'#FFFFFF',
+          'skin':'faredirfare',
+          'width':269,
+          'height':52
+          });
+        </script>
       </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2017</p>
-      </footer>
-    </div> <!-- /container -->
-
-
+    </section>
+  </div>
+  <br>
+  <footer class="container text-center"> 
+    <p>&copy; Radio Twentestad 2018</p>
+  </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

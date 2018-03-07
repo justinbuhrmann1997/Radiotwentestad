@@ -1,12 +1,3 @@
-$(document).ready(function(){
-  if(!$(window).width() >= 989){
-    $('#navbar').css('background', 'rgb(255, 120, 96)');
-  }
-  else{
-    $('#navbar').css('background', 'none');  
-  }
-});
-
 $('.page-scroll a').bind('click', function(event) {
   var $anchor = $(this);
   $('html, body').stop().animate({
@@ -22,18 +13,21 @@ $('body').scrollspy({
 });
 
 //scrolls controleren voor navbar
-$(window).scroll(function() {
-
+$(window).scroll(function changeNav() {
   if($(window).width() >= 989){
-  if ($(window).scrollTop() >= 200 ) {
-      $('#navbar').css('background', 'rgb(255, 120, 96)');
+    if ($(window).scrollTop() >= 100 ) {
+      $('#navbar').removeClass("navbar-in").addClass("navbar-out");
+    } else {
+      $('#navbar').removeClass("navbar-out").addClass("navbar-in");
+    }
+}
+});
 
-  } else {
-      $('#navbar').css('background', 'none');
-      $('#navbar').css('transition', 'ease .5s');
-  }
-}
-else{
-  $('#navbar').css('background', 'rgb(255, 120, 96)');
-}
+$(document).ready(function(){
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+  });
+  $('.navbar-brand').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+  });
 });
