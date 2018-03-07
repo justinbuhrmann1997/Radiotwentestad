@@ -58,22 +58,13 @@
     <section id="luisteren" class="parallax luisteren text-center">
       <div class="container">
         <div class="header-container"><h2 class="header-text header-luisteren">LUISTEREN</h2></div>
-        <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
-        <script type="text/javascript">
-          MRP.insert({
-          'url':'http://radioloho.gkstreamen.nl:8044/;',
-          'codec':'mp3',
-          'volume':75,
-          'autoplay':false,
-          'buffering':5,
-          'title':'radioloho',
-          'welcome':'Welcome at radioloho',
-          'bgcolor':'#FFFFFF',
-          'skin':'faredirfare',
-          'width':269,
-          'height':52
-          });
-        </script>
+        <audio controls id="player">
+          <source src="http://radioloho.gkstreamen.nl:8044/;" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div class="player fixed-bottom">
+          <p class="animated bounceInRight"><a class="player-button" onclick="play();" id="playbutton" role="button">Lees verder</a></p>
+        </div>    
       </div>
     </section>
   </div>
@@ -91,5 +82,14 @@
     <!-- Scrippies -->
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="js/Smoothscroll.js"></script>
+    <script>
+    $(document).ready(function(){
+      function play(){
+        console.log("klik");
+        $("#player").play();
+      }
+      
+    })
+    </script>
   </body>
 </html>

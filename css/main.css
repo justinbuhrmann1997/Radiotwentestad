@@ -16,6 +16,14 @@
     color: white;
 }
 
+.player{
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    line-height: 60px!important;
+    color: white;
+    padding: 5px;
+}
+
 .header-text{
     font-family: 'Krona One', sans-serif;
     letter-spacing: 1px;
@@ -106,5 +114,8 @@ section{
 @media screen and (max-width: 490px) {
     right{
         font-size: 30px;
+    }
+    .header-luisteren{
+        font-size: 40px;
     }
 }
