@@ -10,6 +10,7 @@
    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
    <link rel="stylesheet" type="text/css" media="screen" href="css/animate.css" />
    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery-ui.css" />
+   <link rel="stylesheet" type="text/css" media="screen" href="fontawesome/web-fonts-with-css/css/fontawesome-all.css" />
 
 	 <!-- fonts -->
 	 <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet"> 
@@ -63,7 +64,9 @@
           Your browser does not support the audio element.
         </audio>
         <div class="player fixed-bottom">
-          <p class="animated bounceInRight"><a class="player-button" onclick="play();" id="playbutton" role="button">Lees verder</a></p>
+          <p><a class="player-button far fa-play-circle" onclick="playToggle();" id="playbutton" role="button"></a></p>
+          <p id="timeDisplay">00:00</p>
+          <input type="range" min="0.0" max="1.0" value="0.5" step="0.01" onchange="changeVolume(this.value);">
         </div>    
       </div>
     </section>
@@ -84,12 +87,44 @@
     <script src="js/Smoothscroll.js"></script>
     <script>
     $(document).ready(function(){
-      function play(){
-        console.log("klik");
-        $("#player").play();
-      }
+    
       
-    })
+    });
+    var playing = false;
+    var player = document.getElementById("player"); 
+    var timeDisplay = document.getElementById("timeDisplay")
+
+    player.ontimeupdate = function() {
+      var minutes = Math.floor(player.currentTime / 60); // 7
+      var seconds = Math.round(player.currentTime % 60); // 30
+      var time = minutes + ":" + seconds;
+      timeDisplay.innerHTML = time;
+    };
+    
+    function changeVolume(value){
+      player.volume = value;
+    }
+    $( function() {
+      $( "#slider" ).slider({
+        min: 0.0,
+        max: 1.0,
+        step: 0.1,
+        change: function(event, ui) {
+            
+        }
+      });
+    });
+
+    function playToggle(){
+      if(playing){
+        player.pause();
+        playing = !playing;
+      }
+      else{
+        player.play();
+        playing = !playing;
+      }
+    }
     </script>
   </body>
 </html>
