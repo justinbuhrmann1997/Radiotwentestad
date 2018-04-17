@@ -40,7 +40,7 @@
 						<a class="nav-link" href="#">Artiestengala</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -63,11 +63,49 @@
           <source src="http://radioloho.gkstreamen.nl:8044/;" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <div class="player fixed-bottom">
+        <div class="player-pill">
+          <p class="page-scroll player-button"><a class="header-button fas fa-play fa-4x" id="player-button" onclick="playToggle();" role="button"></a></p>
+          <input class="player-sound-slider" type="range" min="0.0" max="1.0" value="0.5" step="0.01" onchange="changeVolume(this.value);">
+        </div>
+        <!-- <div class="player fixed-bottom">
           <p><a class="player-button far fa-play-circle" onclick="playToggle();" id="playbutton" role="button"></a></p>
           <p id="timeDisplay">00:00</p>
           <input type="range" min="0.0" max="1.0" value="0.5" step="0.01" onchange="changeVolume(this.value);">
-        </div>    
+        </div>     -->
+      </div>
+    </section>
+    <section id="contact" class="parallax contact">
+      <div class="container">
+      <div class="header-container text-center"><h2 class="header-text header-luisteren">CONTACT</h2></div>
+      <form id="contact-form" method="post" action="mailer.php">
+      <div id="form-messages"></div>
+        <div class="row">
+          
+            <div class="col-sm col-sm-offset-1" style="display: inline-block">
+              <div class="form-group">
+                  <label class=" control-label label-contact" for="textinput">*Naam:</label>  
+                  <input id="naam" name="naam" placeholder="Naam Achternaam" class="form-control" type="text" required>
+              </div>
+              <div class="form-group">
+                  <label class=" control-label label-contact" for="textinput">*Email:</label>  
+                  <input id="email" name="email" placeholder="voorbeeld@mail.com" class="form-control" type="email" required>
+              </div>
+              <div class="form-group">
+                  <label class=" control-label label-contact" for="textinput">Telefoon:</label>  
+                  <input id="telefoon" name="telefoon" placeholder="06-12345678" class="form-control" type="phone">
+              </div>
+            </div>
+            <div class="col-sm" style="display: inline-block">
+              <div class="form-group">
+                  <label class=" control-label label-contact" for="textinput">*Bericht:</label>  
+                  <textarea class="form-control" id="bericht" name="bericht" rows="10" required></textarea>
+              </div>
+            </div>
+        </div>
+        <div class="text-center">
+          <button class="text-center header-button" type="submit">Versturen</button>
+        </div>
+        </form>
       </div>
     </section>
   </div>
@@ -85,11 +123,8 @@
     <!-- Scrippies -->
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="js/Smoothscroll.js"></script>
+    <script src="js/form-send.js"></script>
     <script>
-    $(document).ready(function(){
-    
-      
-    });
     var playing = false;
     var player = document.getElementById("player"); 
     var timeDisplay = document.getElementById("timeDisplay")
@@ -118,10 +153,12 @@
     function playToggle(){
       if(playing){
         player.pause();
+        $( "#player-button" ).removeClass("fa-pause").addClass("fa-play");
         playing = !playing;
       }
       else{
         player.play();
+        $( "#player-button" ).removeClass("fa-play").addClass("fa-pause");
         playing = !playing;
       }
     }
