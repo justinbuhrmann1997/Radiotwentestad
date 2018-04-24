@@ -45,7 +45,9 @@
 				</ul>
 			</div>
 		</div>
-	</nav>
+  </nav>
+
+  <div id="alertContainer" class="fixed-top alert-container col-sm-3 offset-sm-9"></div>
   <!-- Header -->
   <div id="top" class="parallax header">
     <div class="container header-textblock text-center">
@@ -59,28 +61,28 @@
     <section id="luisteren" class="parallax luisteren text-center">
       <div class="container">
         <div class="header-container"><h2 class="header-text header-luisteren">LUISTEREN</h2></div>
-        <audio controls id="player">
+        <!-- Audio player -->
+        <audio controls id="player" style="display: none">
           <source src="http://radioloho.gkstreamen.nl:8044/;" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        <div class="player-pill">
-          <p class="page-scroll player-button"><a class="header-button fas fa-play fa-4x" id="player-button" onclick="playToggle();" role="button"></a></p>
-          <input class="player-sound-slider" type="range" min="0.0" max="1.0" value="0.5" step="0.01" onchange="changeVolume(this.value);">
+        <div class="player-pill col-sm-6 offset-sm-3">
+          <p class="page-scroll player-button"><a class="header-button fas fa-play fa-3x" id="player-button" onclick="playToggle();" role="button"></a></p>
+          <div class="player-text-container">
+            <p><b>Radio Twentestad</b></p>
+            <p>Je luistert nu naar radio twentestad</p>
+          </div>
+          <input class="player-slider" type="range" min="0.0" max="1.0" value="0.5" step="0.01" onchange="changeVolume(this.value);">
+          <i class="fas fa-volume-up player-volume-icon fa-2x"></i>
         </div>
-        <!-- <div class="player fixed-bottom">
-          <p><a class="player-button far fa-play-circle" onclick="playToggle();" id="playbutton" role="button"></a></p>
-          <p id="timeDisplay">00:00</p>
-          <input type="range" min="0.0" max="1.0" value="0.5" step="0.01" onchange="changeVolume(this.value);">
-        </div>     -->
       </div>
     </section>
     <section id="contact" class="parallax contact">
       <div class="container">
       <div class="header-container text-center"><h2 class="header-text header-luisteren">CONTACT</h2></div>
-      <form id="contact-form" method="post" action="mailer.php">
+      <form id="contact-form" method="get" enctype="multipart/form-data" action="mailer.php">
       <div id="form-messages"></div>
         <div class="row">
-          
             <div class="col-sm col-sm-offset-1" style="display: inline-block">
               <div class="form-group">
                   <label class=" control-label label-contact" for="textinput">*Naam:</label>  
@@ -92,7 +94,7 @@
               </div>
               <div class="form-group">
                   <label class=" control-label label-contact" for="textinput">Telefoon:</label>  
-                  <input id="telefoon" name="telefoon" placeholder="06-12345678" class="form-control" type="phone">
+                  <input id="telefoon" name="telefoon" placeholder="06-12345678" class="form-control" type="number">
               </div>
             </div>
             <div class="col-sm" style="display: inline-block">

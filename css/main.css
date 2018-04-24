@@ -103,7 +103,7 @@ section{
 }
 
 .player-pill{
-    background-color: rgba(0,0,0,.65);
+    background: linear-gradient(to right, rgba(125,126,125,0.87) 0%,rgba(14,14,14,0.87) 100%);
     border-radius: 20px;
     height: 100px;
     text-align: left;
@@ -112,14 +112,58 @@ section{
 .player-button{
     height: 100%;
     width: 10%;
-    padding-top: 7px;
+    padding-top: 15px;
     padding-left: 7px;
     display: inline-block;
 }
 
 .player-slider{
-    width: 70%;
-    height: 50%;
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+.player-text-container{
+    width: 50%;
+    color: white;
+    display: inline-block;
+    margin-left: 7%;
+}
+
+.player-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.alert-container{
+    margin-top: 75px;
+}
+
+.player-volume-icon{
+    color: white;
+    float: right;
+    padding-top: 7%;
+    margin-right: 10px;
+}
+
+.player-slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.player-slider::-moz-range-thumb:hover {
+    background: rgb(255, 120, 96);
+    width: 27px;
+    height: 27px;
 }
 
 .player-timer{

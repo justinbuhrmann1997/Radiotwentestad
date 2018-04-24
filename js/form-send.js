@@ -1,36 +1,23 @@
-$(function() {
-    var form = $('#contact-form');
-
-    var formMessages = $('#form-messages');
-
-});
-
-$(form).submit(function(event) {
+$('#contact-form').submit(function(event) {
     event.preventDefault();
+    var formMessages = $('#alert-text');
+    var alertContainer = $('#alertContainer');
+    var form = $('#contact-form');
     var formData = $(form).serialize();
     $.ajax({
-        type: 'POST',
-        url: $(form).attr('action'),
+        method: 'get',
+        url: 'mailer.php',
         data: formData
     })
     .done(function(response) {
-        $(formMessages).removeClass('error');
-        $(formMessages).addClass('success');
+        $(alertContainer).append(response);
     
-        $(formMessages).text(response);
-    
-        $('#name').val('');
+        $('#naam').val('');
         $('#email').val('');
-        $('#message').val('');
+        $('#telefoon').val('');
+        $('#bericht').val('');
     })
-    .fail(function(data) {
-        $(formMessages).removeClass('success');
-        $(formMessages).addClass('error');
-    
-        if (data.responseText !== '') {
-            $(formMessages).text(data.responseText);
-        } else {
-            $(formMessages).text('Oops! An error occured and your message could not be sent.');
-        }
+    .fail(function(response) {
+        $(alertContainer).append(response);
     });
 });
