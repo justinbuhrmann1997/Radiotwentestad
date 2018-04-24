@@ -80,9 +80,44 @@ section{
     height: 50vh;
 }
 
+.tab-pane{
+    color: white;
+}
+
+.schema-link a{
+    color: white;
+    transition: .4s ease;
+    font-weight: bold;
+}
+
+.tab-pane{
+    background: rgba(0,0,0,0.7);
+    border: solid white;
+    border-width: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tab-pane hr{
+    width: 90%;
+    border-color: white;
+}
+
+.nav-tabs{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px 6px 0px 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
 .luisteren{
     background-image: url('../img/listen_bg.jpg');
     height: 700px;
+}
+
+.schema{
+    background-image: url('../img/schema_bg.jpg');
+    min-height: 600px;
 }
 
 .contact{

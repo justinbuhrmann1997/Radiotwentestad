@@ -31,7 +31,7 @@
 						<a class="nav-link" href="#luisteren">Luisteren<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Schema</a>
+						<a class="nav-link" href="#schema">Schema</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Over ons</a>
@@ -58,7 +58,7 @@
 
   <!-- body -->
   <div class="main">
-    <section id="luisteren" class="parallax luisteren text-center">
+  <section id="luisteren" class="parallax luisteren text-center">
       <div class="container">
         <div class="header-container"><h2 class="header-text header-luisteren">LUISTEREN</h2></div>
         <!-- Audio player -->
@@ -77,6 +77,121 @@
         </div>
       </div>
     </section>
+
+    <section id="schema" class="parallax schema text-center">
+      <div class="container">
+        <div class="header-container"><h2 class="header-text header-luisteren">SCHEMA</h2></div>
+        <ul class="nav nav-tabs row" id="myTab" role="tablist" style="border-bottom: none">
+          <li class="nav-item schema-link col-sm">
+            <a class="nav-link active" id="maandag-tab" data-toggle="tab" href="#maandag" role="tab" aria-controls="maandag" aria-selected="true">MAANDAG</a>
+          </li>
+          <li class="nav-item schema-link col-sm">
+            <a class="nav-link" id="dinsdag-tab" data-toggle="tab" href="#dinsdag" role="tab" aria-controls="dinsdag" aria-selected="false">DINSDAG</a>
+          </li>
+          <li class="nav-item schema-link col-sm">
+            <a class="nav-link" id="woensdag-tab" data-toggle="tab" href="#woensdag" role="tab" aria-controls="woensdag" aria-selected="false">WOENSDAG</a>
+          </li>
+          <li class="nav-item schema-link col-sm">
+            <a class="nav-link" id="donderdag-tab" data-toggle="tab" href="#donderdag" role="tab" aria-controls="donderdag" aria-selected="false">DONDERDAG</a>
+          </li>
+          <li class="nav-item schema-link col-sm">
+            <a class="nav-link" id="vrijdag-tab" data-toggle="tab" href="#vrijdag" role="tab" aria-controls="vrijdag" aria-selected="false">VRIJDAG</a>
+          </li>
+          <li class="nav-item schema-link col-sm">
+            <a class="nav-link" id="zaterdag-tab" data-toggle="tab" href="#zaterdag" role="tab" aria-controls="zaterdag" aria-selected="false">ZATERDAG</a>
+          </li>
+          <li class="nav-item schema-link col-sm">
+            <a class="nav-link" id="zondag-tab" data-toggle="tab" href="#zondag" role="tab" aria-controls="zondag" aria-selected="false">ZONDAG</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="maandag" role="tabpanel" aria-labelledby="maandag-tab">
+            <div class="row">
+              <div class="col-sm-3">10:00 ~ 12:00</div>
+              <div class="col-sm-8">''De Maandag Ochtend Show'' - Robin Ganzevles & Peter Hagenaars & Michel Grevink & Hans Koster</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="dinsdag" role="tabpanel" aria-labelledby="dinsdag-tab">
+            <div class="row">
+              <div class="col-sm-3">10:00 ~ 12:00</div>
+              <div class="col-sm-8"> ''de Dinsdag Ochtend Show'' -  Ria Oude Sanderink & Peter Hagenaars & wesley treder</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">19:00 ~ 22:00</div>
+              <div class="col-sm-8">''Dit is Thijs" - Thijs Fleer ( Tuffel Fm)</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="woensdag" role="tabpanel" aria-labelledby="woensdag-tab">
+            <div class="row">
+              <div class="col-sm-3">10:00 ~ 12:00</div>
+              <div class="col-sm-8"> ''de Woensdag Ochtend Show'' -  Peter Hagenaars & Theo Gerard & joost kuipers (LoHo Radio)</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">20:00 ~ 22:00</div>
+              <div class="col-sm-8"> ''Ziet Zwart Van Het Vinyl'' - JanWillem Kroese ( Radio OZO Enschede)</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="donderdag" role="tabpanel" aria-labelledby="donderdag-tab">
+            <div class="row">
+              <div class="col-sm-3">10:00 ~ 12:00</div>
+              <div class="col-sm-8">'' Dinkel Old Music'' - Gerrit van Gils (LoHo Radio)</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">19:00 ~ 21:00</div>
+              <div class="col-sm-8">RobinRadio-Robin Ganzevles (RobinRadio)</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="vrijdag" role="tabpanel" aria-labelledby="vrijdag-tab">
+            <div class="row">
+              <div class="col-sm-3">10:00 ~ 12:00</div>
+              <div class="col-sm-8">''de Vrijdag Ochtend Show'' - Thijs Fleer & Michel Grevink (LoHo Radio)</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">20:00 ~ 22:00</div>
+              <div class="col-sm-8">''de Vrijdag Avond Show'' - Albert Staal, JanWillem Kroese & Alexander Robers ( Radio OZO Enschede)</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="zaterdag" role="tabpanel" aria-labelledby="zaterdag-tab">
+            <div class="row">
+              <div class="col-sm-3">09:00 ~ 10:00</div>
+              <div class="col-sm-8">Shanties bij de vleet met Max Thurmer</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">10:00 ~ 12:00</div>
+              <div class="col-sm-8">Jaren 70 muziek met Geerhard Hannink</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">12:00 ~ 14:00</div>
+              <div class="col-sm-8">Streektaal radio met Ben Nijkamp</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">14:00 ~ 15:00</div>
+              <div class="col-sm-8">Shanties bij de vleet met Max Thurmer</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="zondag" role="tabpanel" aria-labelledby="zondag-tab">
+            <div class="row">
+              <div class="col-sm-3">12:00 ~ 14:00</div>
+              <div class="col-sm-8">"Het Artiesten Gala" met Henk en Michel Grevink</div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">14:00 ~ 17:00</div>
+              <div class="col-sm-8">"Grijs Gedraaid" met Albert Staal (Radio OZO Enschede)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="parallax contact">
       <div class="container">
       <div class="header-container text-center"><h2 class="header-text header-luisteren">CONTACT</h2></div>
