@@ -34,10 +34,10 @@
 						<a class="nav-link" href="#schema">Schema</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Over ons</a>
-					</li>
+						<a class="nav-link" href="#over">Over ons</a>
+          </li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Artiestengala</a>
+						<a class="nav-link" href="#gala">Artiestengala</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact">Contact</a>
@@ -50,15 +50,18 @@
   <div id="alertContainer" class="fixed-top alert-container col-sm-3 offset-sm-9"></div>
   <!-- Header -->
   <div id="top" class="parallax header">
+    <div class="filter">
     <div class="container header-textblock text-center">
     <h1 class="display-3 header-text animated bounceInLeft"><left>RADIO</left> <right>TWENTESTAD</right></h1>
       <p class="page-scroll animated bounceInRight"><a class="header-button" href="#luisteren" role="button">Lees verder</a></p>
+    </div>
     </div>
   </div>
 
   <!-- body -->
   <div class="main">
   <section id="luisteren" class="parallax luisteren text-center">
+    <div class="filter">
       <div class="container">
         <div class="header-container"><h2 class="header-text header-luisteren">LUISTEREN</h2></div>
         <!-- Audio player -->
@@ -75,12 +78,15 @@
           <input class="player-slider" type="range" min="0.0" max="1.0" value="0.5" step="0.01" onchange="changeVolume(this.value);">
           <i class="fas fa-volume-up player-volume-icon fa-2x"></i>
         </div>
+        <div class="sub-header"><h3>UITZENDING GEMIST?</h3></div>
+        <iframe class="gemist-frame" width="200" height="250" src="https://www.mixcloud.com/widget/follow/?dark=1&u=%2Fradiotwentestad%2F" frameborder="0" ></iframe>
       </div>
-    </section>
+    </div>
+  </section>
 
     <section id="schema" class="parallax schema text-center">
       <div class="container">
-        <div class="header-container"><h2 class="header-text header-luisteren">SCHEMA</h2></div>
+        <div class="header-container"><h2 class="header-text header-schema">PROGRAMMERING</h2></div>
         <ul class="nav nav-tabs row" id="myTab" role="tablist" style="border-bottom: none">
           <li class="nav-item schema-link col-sm">
             <a class="nav-link active" id="maandag-tab" data-toggle="tab" href="#maandag" role="tab" aria-controls="maandag" aria-selected="true">MAANDAG</a>
@@ -192,9 +198,67 @@
       </div>
     </section>
 
+    <section id="over" class="parallax over">
+      <div class="filter-hard">
+        <div class="container">
+          <div class="header-container text-center"><h2 class="header-text header-luisteren">OVER ONS</h2></div>
+          <div class="over-container">
+            <h3>Het begon allemaal in 1986</h3>
+            <p class="over-text">Het programma begon bij Radio Enschede met Herman Lippinkhof, Gerard Keizer en vader en zoon Henk en Michel Grevink. Zij maakten de eerste tijd het programma vanuit de toenmalige Varia Studio aan de Hoogstraat. Al snel groeide het programma uit tot een vaste waarde in de programmering van Radio Enschede. "Een populair onderdeel van Het Artiestengala was 'Het Dingetje', waarbij de luisteraars moesten raden welk ding werd omschreven," "Ook werden er veel verzoekplaten aangevraagd en kwamen er veel artiesten langs in de studio. De eerste artieste die bij mij in de uitzending langs kwam, was zangeres Pauline van 'Ik laat je niet gaan'."</p>
+          </div>
+          <div id="carouselOver" class="carousel slide" data-ride="carousel" style="margin-bottom: 30px;">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselOver" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselOver" data-slide-to="1"></li>
+              <li data-target="#carouselOver" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/over_1.jpeg" alt="First pic">
+                <div class="filter-img"></div>
+                </img>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/over_2.jpeg" alt="Second pic">
+                <div class="filter-img"></div>
+                </img>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/over_3.jpeg" alt="Third pic">
+                <div class="filter-img"></div>
+                </img>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselOver" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselOver" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gala" class="parallax gala">
+      <div class="filter-dark">
+        <div class="container">
+          <div class="header-container text-center"><h2 class="header-text header-luisteren">ARTIESTENGALA</h2></div>
+          <div class="over-container">
+          <h3>Het Artiestengala. Een programma van Henk & Michel Grevink.<br>Sinds 1986 op uw Radio.</h3>
+            <p class="over-text">Het programma begon bij Radio Enschede met Herman Lippinkhof, Gerard Keizer en vader en zoon Henk en Michel Grevink. Zij maakten de eerste tijd het programma vanuit de toenmalige Varia Studio aan de Hoogstraat. Al snel groeide het programma uit tot een vaste waarde in de programmering van Radio Enschede. "Een populair onderdeel van Het Artiestengala was 'Het Dingetje', waarbij de luisteraars moesten raden welk ding werd omschreven," "Ook werden er veel verzoekplaten aangevraagd en kwamen er veel artiesten langs in de studio. De eerste artieste die bij mij in de uitzending langs kwam, was zangeres Pauline van 'Ik laat je niet gaan'."</p>
+            <a class="header-button" href="https://www.artiestengala.info/" target="_blank">Naar de site</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="parallax contact">
       <div class="container">
       <div class="header-container text-center"><h2 class="header-text header-luisteren">CONTACT</h2></div>
+      <h3 class="over-text">Stuur ons een berichtje en/of verzoekje, of check onze social media!</h3>
       <form id="contact-form" method="get" enctype="multipart/form-data" action="mailer.php">
       <div id="form-messages"></div>
         <div class="row">
@@ -223,6 +287,11 @@
           <button class="text-center header-button" type="submit">Versturen</button>
         </div>
         </form>
+        <div class="text-center">
+          <a href="www.twitter.com" class="btn btn-social"><i class="fab fa-twitter"></i></a>
+          <a href="www.twitter.com" class="btn btn-social"><i class="fab fa-facebook"></i></a>
+          <a href="www.twitter.com" class="btn btn-social"><i class="fab fa-google"></i></a>
+      </div>
       </div>
     </section>
   </div>
