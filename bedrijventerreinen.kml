@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Bedrijventerreinen" id="Bedrijventerreinen">
+	<SimpleField name="RIN_NUMMER" type="string"></SimpleField>
+	<SimpleField name="PLAN_NAAM" type="string"></SimpleField>
+	<SimpleField name="KERN_NAAM" type="string"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="TER_BEHEER" type="string"></SimpleField>
+	<SimpleField name="GEG_BEHEER" type="string"></SimpleField>
+	<SimpleField name="VOL" type="string"></SimpleField>
+	<SimpleField name="HA_BRUTO" type="float"></SimpleField>
+	<SimpleField name="HA_NETTO" type="float"></SimpleField>
+	<SimpleField name="HA_UITGEG" type="float"></SimpleField>
+	<SimpleField name="HA_UIT_HJR" type="float"></SimpleField>
+	<SimpleField name="HA_TKPGEM" type="float"></SimpleField>
+	<SimpleField name="HA_UITGEM" type="float"></SimpleField>
+	<SimpleField name="HA_UITPAR" type="float"></SimpleField>
+	<SimpleField name="HA_TUITGEM" type="float"></SimpleField>
+	<SimpleField name="HA_TUITPAR" type="float"></SimpleField>
+	<SimpleField name="HA_TOTTUIT" type="float"></SimpleField>
+	<SimpleField name="HA_NTUITGM" type="float"></SimpleField>
+	<SimpleField name="HA_NTUITPR" type="float"></SimpleField>
+	<SimpleField name="JR_NTUITGB" type="int"></SimpleField>
+	<SimpleField name="beoogdJaar" type="int"></SimpleField>
+	<SimpleField name="HA_GRUITDL" type="float"></SimpleField>
+	<SimpleField name="OPMER_JAAR" type="string"></SimpleField>
+	<SimpleField name="MN_VPRIJS" type="float"></SimpleField>
+	<SimpleField name="MX_VPRIJS" type="float"></SimpleField>
+	<SimpleField name="MN_EPRIJS" type="float"></SimpleField>
+	<SimpleField name="MX_EPRIJS" type="float"></SimpleField>
+	<SimpleField name="START_JAAR" type="int"></SimpleField>
+	<SimpleField name="MILIEUZONE" type="string"></SimpleField>
+	<SimpleField name="WLOC_TYPE" type="string"></SimpleField>
+	<SimpleField name="PLAN_FASE" type="string"></SimpleField>
+	<SimpleField name="MAX_MILIEU" type="string"></SimpleField>
+	<SimpleField name="EXT_BEREIK" type="string"></SimpleField>
+	<SimpleField name="PARKEER" type="string"></SimpleField>
+	<SimpleField name="PARK_MGT" type="string"></SimpleField>
+	<SimpleField name="SPOOR_ONTS" type="string"></SimpleField>
+	<SimpleField name="WATER_ONTS" type="string"></SimpleField>
+	<SimpleField name="VEROUDERD" type="string"></SimpleField>
+	<SimpleField name="OORZ_OUD" type="string"></SimpleField>
+	<SimpleField name="HA_BRTOUD" type="float"></SimpleField>
+	<SimpleField name="HSTRC_PLAN" type="string"></SimpleField>
+	<SimpleField name="HSTRC_FASE" type="string"></SimpleField>
+	<SimpleField name="HA_FACELFT" type="float"></SimpleField>
+	<SimpleField name="HA_REVITAL" type="float"></SimpleField>
+	<SimpleField name="HA_ZREVIT" type="float"></SimpleField>
+	<SimpleField name="HA_HERPROF" type="float"></SimpleField>
+	<SimpleField name="HA_TRANSF" type="float"></SimpleField>
+	<SimpleField name="GEM_CODES" type="string"></SimpleField>
+	<SimpleField name="GEM_NAMEN" type="string"></SimpleField>
+	<SimpleField name="PROV_CODES" type="string"></SimpleField>
+	<SimpleField name="PROV_NAMEN" type="string"></SimpleField>
+	<SimpleField name="COROPCODES" type="string"></SimpleField>
+	<SimpleField name="COROPNAMEN" type="string"></SimpleField>
+</Schema>
+<Folder><name>Bedrijventerreinen</name>
+<Placemark>
+	<name>ENSCHEDE - EUREGIO BEDRIJVENPARK</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">130119</SimpleData>
+		<SimpleData name="PLAN_NAAM">EUREGIO BEDRIJVENPARK</SimpleData>
+		<SimpleData name="KERN_NAAM">ENSCHEDE</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">ENSCHEDE</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie OVERIJSSEL</SimpleData>
+		<SimpleData name="VOL">NEE</SimpleData>
+		<SimpleData name="HA_BRUTO">78.30</SimpleData>
+		<SimpleData name="HA_NETTO">59.89</SimpleData>
+		<SimpleData name="HA_UITGEG">50.24</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">9.65</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">9.65</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">9.65</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">1.70</SimpleData>
+		<SimpleData name="MN_VPRIJS">136.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">141.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1974</SimpleData>
+		<SimpleData name="MILIEUZONE">ONBEKEND</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">4</SimpleData>
+		<SimpleData name="EXT_BEREIK">X</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">JA</SimpleData>
+		<SimpleData name="SPOOR_ONTS">X</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">B</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">N</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">153</SimpleData>
+		<SimpleData name="GEM_NAMEN">ENSCHEDE</SimpleData>
+		<SimpleData name="PROV_CODES">23</SimpleData>
+		<SimpleData name="PROV_NAMEN">OVERIJSSEL</SimpleData>
+		<SimpleData name="COROPCODES">12</SimpleData>
+		<SimpleData name="COROPNAMEN">TWENTE</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>6.95570608583892,52.2281390118263 6.958407085873,52.227857012053 6.95865608699885,52.2273630123793 6.95859408686983,52.2268730116952 6.95849508688115,52.2265740124974 6.95884208611316,52.2263240121528 6.95937208613785,52.2262620120331 6.96057208717948,52.2262460123473 6.96068408724926,52.2256440123755 6.95872708677003,52.2255880121877 6.95891808636883,52.2247130120432 6.95971508592717,52.224648011695 6.95966108602184,52.2243750123452 6.95929208581494,52.2239710118017 6.95857208656423,52.223735011814 6.95825808634422,52.2236300123362 6.95754708610225,52.2236400123387 6.95749608637259,52.2234490120507 6.95869608666857,52.2234610117115 6.95853408625721,52.22264401234 6.95733708609214,52.2227150117231 6.95691308651304,52.2207830116581 6.9401860867808,52.2226420120701 6.94184808659855,52.2269850116234 6.94745908660859,52.2260930116485 6.94778108656368,52.2276710116473 6.95530508689032,52.2268340123398 6.95570808645136,52.2281930117254 6.95570608583892,52.2281390118263</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>ENSCHEDE - USSELER ES</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">230951</SimpleData>
+		<SimpleData name="PLAN_NAAM">USSELER ES</SimpleData>
+		<SimpleData name="KERN_NAAM">USSELO</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">ENSCHEDE</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie OVERIJSSEL</SimpleData>
+		<SimpleData name="VOL">NEE</SimpleData>
+		<SimpleData name="HA_BRUTO">82.50</SimpleData>
+		<SimpleData name="HA_NETTO">58.00</SimpleData>
+		<SimpleData name="HA_UITGEG">0.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">58.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">5.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">5.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">53.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">2012</SimpleData>
+		<SimpleData name="MILIEUZONE">ONBEKEND</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">4</SimpleData>
+		<SimpleData name="EXT_BEREIK">X</SimpleData>
+		<SimpleData name="PARKEER">X</SimpleData>
+		<SimpleData name="PARK_MGT">JA</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">NEE</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">153</SimpleData>
+		<SimpleData name="GEM_NAMEN">ENSCHEDE</SimpleData>
+		<SimpleData name="PROV_CODES">23</SimpleData>
+		<SimpleData name="PROV_NAMEN">OVERIJSSEL</SimpleData>
+		<SimpleData name="COROPCODES">12</SimpleData>
+		<SimpleData name="COROPNAMEN">TWENTE</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>6.83836208565842,52.2148460112539 6.84009908525547,52.2137260114853 6.8414080853504,52.2131110114685 6.84305508621665,52.212846011358 6.84427008488689,52.2125130118807 6.84648808520021,52.2107520112904 6.84709008611589,52.2101820112263 6.85208208585707,52.2065820114471 6.85453808520423,52.2046160112962 6.85274708527051,52.2028320118894 6.84920208619486,52.2029990119326 6.84386808550155,52.2035490118868 6.84021908520399,52.2040470115888 6.83383708581716,52.2053690119624 6.82938608570933,52.2060960118189 6.82501708562994,52.2078220117021 6.82763508574458,52.2100730120216 6.8301370848791,52.2118530119568 6.83373108559047,52.2137500117794 6.83538508517219,52.2141920117445 6.8369890854112,52.2144450113272 6.83784008536675,52.2146980119581 6.83836208565842,52.2148460112539</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>ENSCHEDE - TRANSPORTCENTRUM</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">555</SimpleData>
+		<SimpleData name="PLAN_NAAM">TRANSPORTCENTRUM</SimpleData>
+		<SimpleData name="KERN_NAAM">ENSCHEDE</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">ENSCHEDE</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie OVERIJSSEL</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">23.93</SimpleData>
+		<SimpleData name="HA_NETTO">20.91</SimpleData>
+		<SimpleData name="HA_UITGEG">20.91</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MILIEUZONE">ONBEKEND</SimpleData>
+		<SimpleData name="WLOC_TYPE">X</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">X</SimpleData>
+		<SimpleData name="EXT_BEREIK">X</SimpleData>
+		<SimpleData name="PARKEER">X</SimpleData>
+		<SimpleData name="PARK_MGT">ONBEKEND</SimpleData>
+		<SimpleData name="SPOOR_ONTS">X</SimpleData>
+		<SimpleData name="WATER_ONTS">X</SimpleData>
+		<SimpleData name="VEROUDERD">ONBEKEND</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">153</SimpleData>
+		<SimpleData name="GEM_NAMEN">ENSCHEDE</SimpleData>
+		<SimpleData name="PROV_CODES">23</SimpleData>
+		<SimpleData name="PROV_NAMEN">OVERIJSSEL</SimpleData>
+		<SimpleData name="COROPCODES">12</SimpleData>
+		<SimpleData name="COROPNAMEN">TWENTE</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>6.84067908536773,52.2316300118752 6.83863008570373,52.2304220121145 6.83766708547205,52.2296980113426 6.83689508565025,52.2298670118479 6.83649308477654,52.2304490116764 6.83400208536846,52.2325480114327 6.83144408506835,52.2345880116936 6.83066508564937,52.2355330119455 6.83003908579018,52.2362370116134 6.82887708537224,52.2373450114444 6.82690608565047,52.2385570119517 6.82823608475986,52.2393750118524 6.83022908530331,52.2380850120215 6.83169408512414,52.2372480113778 6.83548508493794,52.2349550119483 6.8363370848411,52.2343700115281 6.84067908536773,52.2316300118752</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>ENSCHEDE - HAVENGEBIED</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">557</SimpleData>
+		<SimpleData name="PLAN_NAAM">HAVENGEBIED</SimpleData>
+		<SimpleData name="KERN_NAAM">ENSCHEDE</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">ENSCHEDE</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie OVERIJSSEL</SimpleData>
+		<SimpleData name="VOL">NEE</SimpleData>
+		<SimpleData name="HA_BRUTO">222.23</SimpleData>
+		<SimpleData name="HA_NETTO">134.00</SimpleData>
+		<SimpleData name="HA_UITGEG">132.69</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">1.31</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">1.31</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">1.31</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">1.31</SimpleData>
+		<SimpleData name="MN_VPRIJS">141.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">141.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1930</SimpleData>
+		<SimpleData name="MILIEUZONE">ONBEKEND</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">5</SimpleData>
+		<SimpleData name="EXT_BEREIK">X</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">B</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">A</SimpleData>
+		<SimpleData name="HA_BRTOUD">2.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">F</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">20.00</SimpleData>
+		<SimpleData name="HA_HERPROF">50.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">153</SimpleData>
+		<SimpleData name="GEM_NAMEN">ENSCHEDE</SimpleData>
+		<SimpleData name="PROV_CODES">23</SimpleData>
+		<SimpleData name="PROV_NAMEN">OVERIJSSEL</SimpleData>
+		<SimpleData name="COROPCODES">12</SimpleData>
+		<SimpleData name="COROPNAMEN">TWENTE</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>6.8410180852334,52.2315480118065 6.84437108538482,52.2335400114925 6.85771708523108,52.2252100118499 6.85895008510621,52.2241140116614 6.86102808586608,52.2228860114489 6.8630340852665,52.222014012202 6.86541108552651,52.2213950118129 6.86646408606629,52.221130012022 6.86606808595175,52.2205460120104 6.86585608632732,52.2203590113648 6.86622808614515,52.2202280117134 6.86525408607981,52.2197570117804 6.86393608500427,52.2192690116148 6.86318508514973,52.2193200118835 6.86157808535314,52.2194030120529 6.8572860858072,52.2190570116272 6.85109508618905,52.2182300118188 6.848275085398,52.2178650120196 6.84493908566882,52.2174010120309 6.8429440849097,52.2171530119249 6.8412630853216,52.2170470119161 6.83990808578404,52.2169880112463 6.83887108543676,52.216899011987 6.83810508610819,52.2167920118378 6.83722708479148,52.2165160115661 6.83647508537709,52.2173140117412 6.83610508495327,52.217787011698 6.83589608482418,52.2180950113952 6.83551908528373,52.2185780119889 6.83520308536555,52.2190590117724 6.83491608546561,52.2195360116957 6.83470008492448,52.2198680121253 6.83436808493912,52.2203450112943 6.83424108562101,52.2206020115202 6.83406208578249,52.2209200114507 6.83387508510579,52.2212140121093 6.83394608485812,52.2215190113977 6.83398408516444,52.2217650116747 6.83427408498373,52.2220810116094 6.83443108510914,52.2222740114779 6.83692608508122,52.2237050117413 6.83742308553942,52.2242660121276 6.83774808572305,52.2247670120953 6.83769608498558,52.2263240118123 6.83796608548374,52.2293490119775 6.83861508560671,52.2299890115904 6.8410180852334,52.2315480118065</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BAARN - Noordschil</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">4926</SimpleData>
+		<SimpleData name="PLAN_NAAM">Noordschil</SimpleData>
+		<SimpleData name="KERN_NAAM">BAARN</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BAARN</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">16.10</SimpleData>
+		<SimpleData name="HA_NETTO">12.00</SimpleData>
+		<SimpleData name="HA_UITGEG">12.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1998</SimpleData>
+		<SimpleData name="MILIEUZONE">NEE</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">4</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">D</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">A</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">13.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">308</SimpleData>
+		<SimpleData name="GEM_NAMEN">BAARN</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.26796038624406,52.2221117685241 5.26552133462183,52.2218111213539 5.26536378863676,52.2217916981516 5.26533455232005,52.2217948135442 5.26531369022399,52.2218063071511 5.26531331808648,52.2218065119341 5.26529101831962,52.2218266753593 5.26351417105495,52.2217376210634 5.26185037162856,52.2216542054594 5.26142341457648,52.2216327926864 5.25910090518904,52.2215163066768 5.25892307923247,52.2215074047201 5.25884431958373,52.2215573541089 5.25878529669421,52.2215978164538 5.25860817127856,52.2215856343129 5.25842554131355,52.2215730679437 5.25835543991112,52.221613391835 5.258281747441,52.2216071367584 5.25820631616134,52.2216495848614 5.2578443735085,52.2218581477491 5.25782355689457,52.2218705282247 5.25780224099408,52.2218832049287 5.25776624031983,52.221863041643 5.25772626601471,52.2218406358138 5.25767334240926,52.2218109811946 5.25759642553315,52.2218617771208 5.25756283160677,52.2218796078867 5.25751805409181,52.2218933011022 5.25745766873124,52.2218946189049 5.25713850721088,52.2218488441372 5.25686838026101,52.2218101234679 5.25683483831469,52.2218100864882 5.25680351465607,52.2218169277691 5.25649975535111,52.2219042774906 5.25634757118303,52.2219439701727 5.25620882348303,52.221978176997 5.25608572619624,52.2220055251918 5.25583958224192,52.222051980029 5.25568743786654,52.2220732650606 5.25560463375031,52.2220937817435 5.25554196009699,52.2221115795638 5.25550388460232,52.2221349058508 5.25547244863493,52.2221651060209 5.25545670539472,52.2222035648932 5.25548027044672,52.2225540447315 5.25549138285717,52.2225774258025 5.25550919720499,52.2226008050118 5.25553373675179,52.2226214504852 5.25555158253706,52.2226393379517 5.25555823258691,52.2226572134987 5.25556039890048,52.2226819500016 5.25555363522921,52.2227025606129 5.25553344054194,52.2227217722158 5.25550142041485,52.2227315691875 5.25546489276892,52.2227411455387 5.25543785561321,52.2227435060944 5.25538953343585,52.2227477212324 5.25556720755223,52.2233151503796 5.25567230747024,52.2237001800546 5.25588903851558,52.2243253987462 5.25604014620291,52.2243020074309 5.25611337017152,52.2242906761133 5.25699191280863,52.2241547152533 5.25768268000584,52.2240641216448 5.25844246558025,52.2239670579854 5.25891796785364,52.2239202614714 5.25957142923374,52.2238622345182 5.26019297957996,52.2238172169493 5.26129397617103,52.2237520302337 5.26185036441419,52.2237341602421 5.26257853901282,52.2237163953017 5.26352077971826,52.2236934158057 5.26531555039862,52.2236671277718 5.26617533269856,52.223645039926 5.26647797707972,52.223637269357 5.26700585630675,52.2236237032866 5.26742349580639,52.2236129751164 5.26759526066104,52.2236091257401 5.26773500208325,52.2234656740497 5.26810243588344,52.223090299811 5.26834641295994,52.2228380138457 5.2682878695128,52.2228010963293 5.26831422293304,52.2227698272546 5.26885572116986,52.2222193441729 5.26796038624406,52.2221117685241</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BAARN - De Drie Eiken</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">4925</SimpleData>
+		<SimpleData name="PLAN_NAAM">De Drie Eiken</SimpleData>
+		<SimpleData name="KERN_NAAM">BAARN</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BAARN</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">10.00</SimpleData>
+		<SimpleData name="HA_NETTO">6.75</SimpleData>
+		<SimpleData name="HA_UITGEG">6.75</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1989</SimpleData>
+		<SimpleData name="MILIEUZONE">NEE</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">3</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">NEE</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">308</SimpleData>
+		<SimpleData name="GEM_NAMEN">BAARN</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.2980663805561,52.219038107164 5.29829323474169,52.2191674346224 5.29845760289801,52.2192611392296 5.29873852950627,52.2194213060467 5.29904202105403,52.2195970290025 5.29944201563817,52.2193752193598 5.29962175490236,52.2192813846337 5.29981664695426,52.219190670691 5.30005327531969,52.2190992054613 5.30031265164907,52.2190108663307 5.300585929667,52.2189295201519 5.30086801979016,52.2188613916205 5.30123611721443,52.2187816683009 5.30281808358883,52.2184553981536 5.3029058884095,52.218437269495 5.30341173936314,52.2183328035289 5.30399390699444,52.2182092186352 5.30439655348779,52.2181237480828 5.30442829110717,52.2181166157926 5.30446119078081,52.2181065455969 5.30448396690088,52.2180949131078 5.30450170074471,52.2180801677738 5.30452405364236,52.2180602575515 5.30453008472259,52.2180430590411 5.30454830852276,52.2180164407114 5.30457176255069,52.2179941493419 5.30459906822336,52.2179706472116 5.30461995936632,52.2179495493851 5.30463124651787,52.2179308986231 5.30463782882596,52.2179010273399 5.30463913034822,52.2178777319651 5.30463665433912,52.217847441284 5.30462786337486,52.2178140363305 5.30462428368069,52.2177952133623 5.30462047210072,52.2177752486499 5.3046140625337,52.217751831046 5.30460151844618,52.2177059927876 5.30458976669835,52.2175804785743 5.30457920530044,52.217467647118 5.30456047654681,52.2173325021986 5.30453546656535,52.2171833763192 5.30452674707836,52.217119691224 5.30452683338097,52.2170730987117 5.3045281766567,52.2170272794692 5.30454729987352,52.2169410904805 5.30455102386803,52.2169214815659 5.30452177438695,52.2168809171298 5.30451128164317,52.2167553138036 5.30449331634583,52.2165400337117 5.30444985652887,52.2162877147177 5.30439841257648,52.2160803380648 5.30435940491044,52.2159762407885 5.30432741901366,52.2158658568211 5.30424670316552,52.2157334814609 5.3041866062662,52.2156632262218 5.30406813744506,52.2155247125736 5.30399902462027,52.2154481593047 5.30390692340021,52.2153647414126 5.30382923549463,52.2153126829667 5.30376489666234,52.2152659007442 5.30360486135154,52.2151495213346 5.30349560915125,52.215083634943 5.30345557072236,52.2150626022539 5.30327140117187,52.2149658793611 5.30315646918727,52.2149174700339 5.30301210554947,52.2148722032794 5.30227071125452,52.2146397153514 5.302047246027,52.2145727213705 5.30187249415266,52.2145275662894 5.30183193586412,52.214557205562 5.30171808228416,52.2146115720689 5.30165379197149,52.2146329523506 5.3016006800783,52.2146543862183 5.3013301226351,52.2147357993061 5.30124970201283,52.2147674501305 5.30047947857646,52.2152130081882 5.30053112240291,52.2152546597695 5.30060571823851,52.2152997254508 5.30064958100287,52.2153173377049 5.30067459738556,52.2153273866826 5.30077224325501,52.2153479593754 5.30083452669381,52.2153587722764 5.30076146629345,52.2153973484006 5.30066275770881,52.2154494686641 5.30060501424996,52.2154664766377 5.29988218993826,52.2159378242823 5.29988521912388,52.2159602961096 5.29992286300047,52.2159782189224 5.30002474223723,52.2160267386161 5.30008918289252,52.2160574255914 5.30071296354073,52.2163919610078 5.30135783746505,52.2167737664095 5.30145773764293,52.2168258606725 5.30095789225342,52.2171534452245 5.30052156820264,52.2174394160558 5.29951153516641,52.218097111115 5.2980663805561,52.219038107164</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>DE BILT - Industrieweg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">1294</SimpleData>
+		<SimpleData name="PLAN_NAAM">Industrieweg</SimpleData>
+		<SimpleData name="KERN_NAAM">MAARTENSDIJK</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">DE BILT</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">3.00</SimpleData>
+		<SimpleData name="HA_NETTO">2.00</SimpleData>
+		<SimpleData name="HA_UITGEG">2.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1960</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">3</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">B</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">A</SimpleData>
+		<SimpleData name="HA_BRTOUD">3.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">F</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">3.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">310</SimpleData>
+		<SimpleData name="GEM_NAMEN">DE BILT</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.1661754315427,52.1590213515272 5.16621555078736,52.1590825067357 5.16621615986914,52.1590834338805 5.1662828230137,52.1591850055308 5.16652817715113,52.1595368392801 5.16661398101124,52.159674290787 5.16663834757273,52.159730169232 5.16664484484346,52.1597402571559 5.16664579594264,52.1597400252374 5.16684411424914,52.1600523493847 5.16684591370585,52.1600519210103 5.16689079003699,52.1601210140429 5.16688429481678,52.1601227815179 5.16691472170894,52.1601702411684 5.16692140532468,52.1601686177714 5.16694211687493,52.160200689148 5.16694621592204,52.1601997082529 5.16697450327676,52.1602447726316 5.1669353348721,52.1602540830343 5.16694500752057,52.1602692819585 5.1669768842045,52.160319062599 5.16703289331776,52.1604065477638 5.16709399327398,52.1605019880365 5.16715027906342,52.1605898960652 5.16715480322373,52.1605969603443 5.16722856446109,52.1607121790852 5.16726885637728,52.1607750979229 5.16729117641188,52.1608099502438 5.16730198098866,52.1608268315484 5.16735387249539,52.1609079003612 5.16737920938382,52.1609474678484 5.16741406032121,52.1610019097067 5.16747805924683,52.1611018579164 5.16753520162615,52.1611911069789 5.16757707549051,52.1612564731242 5.16761961334819,52.1613228833408 5.1677034430054,52.1614537687586 5.16783720862412,52.1616626009335 5.16787391360894,52.1617199041983 5.16790985658284,52.1617760019009 5.16791671880464,52.1617743787794 5.16795033950073,52.1617664418182 5.16798202352003,52.1618172109048 5.16807201523436,52.1619614094729 5.16810945688621,52.1620213982331 5.16751904339023,52.1621553934644 5.16797717126069,52.162805515988 5.16805197096942,52.1629224262681 5.1685541372071,52.1627956208948 5.16884582398272,52.1627219652066 5.16910638140464,52.1626561607315 5.16950786985548,52.1625547538171 5.16959471288225,52.1625307363223 5.16961131993091,52.1625261380076 5.16936506119387,52.1621274012019 5.16926835856809,52.1619708147144 5.16885052473359,52.1612794986374 5.16868128281463,52.1610056911267 5.16842581396516,52.1605923928591 5.1680596683558,52.1599901773512 5.16800953748816,52.1598927358696 5.16797178175588,52.1598193506738 5.16743534048331,52.1589824114223 5.16743561627675,52.158926371648 5.16733589611701,52.1587550018271 5.16701939913389,52.1588278883409 5.16691599124844,52.1588517024304 5.16680271054655,52.1588777894207 5.1667695849295,52.1588853945404 5.16676244741131,52.158887034636 5.16673742724221,52.1588927853175 5.16670774486915,52.1588996057963 5.16665386506388,52.158913544435 5.1661754315427,52.1590213515272</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>DE BILT - Dierenriem</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">1295</SimpleData>
+		<SimpleData name="PLAN_NAAM">Dierenriem</SimpleData>
+		<SimpleData name="KERN_NAAM">MAARTENSDIJK</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">DE BILT</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">1.00</SimpleData>
+		<SimpleData name="HA_NETTO">1.00</SimpleData>
+		<SimpleData name="HA_UITGEG">1.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1980</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">2</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">NEE</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">310</SimpleData>
+		<SimpleData name="GEM_NAMEN">DE BILT</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.17056997526767,52.1571318056176 5.17043044777112,52.1569180586472 5.16988126832183,52.1570431553214 5.16941518485951,52.1562730569699 5.169352116127,52.1563237944458 5.16919406959092,52.1564509338978 5.16917248908737,52.1564682857338 5.16908728888184,52.156520402287 5.16890250056242,52.1566681282762 5.16875331008396,52.1567767323729 5.16862351427187,52.1568995102429 5.16862310929124,52.156982252594 5.16864358147573,52.1571347261878 5.16869229686938,52.1573090208766 5.16870000172115,52.1573291861285 5.16876008189805,52.1574865505386 5.1688044787121,52.1576028109571 5.16888907844547,52.1577837223494 5.16894735328912,52.1577704308623 5.16898294752638,52.1577623176264 5.16917130574314,52.1577193616992 5.16935011040444,52.1576785809024 5.17001179873691,52.1575301057645 5.16986962248715,52.1572903960628 5.17056997526767,52.1571318056176</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>DE BILT - Rembrandtlaan</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">4665</SimpleData>
+		<SimpleData name="PLAN_NAAM">Rembrandtlaan</SimpleData>
+		<SimpleData name="KERN_NAAM">BILTHOVEN</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">DE BILT</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">8.00</SimpleData>
+		<SimpleData name="HA_NETTO">2.80</SimpleData>
+		<SimpleData name="HA_UITGEG">2.80</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1940</SimpleData>
+		<SimpleData name="MILIEUZONE">ONBEKEND</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">3</SimpleData>
+		<SimpleData name="MAX_MILIEU">2</SimpleData>
+		<SimpleData name="EXT_BEREIK">B</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">B</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">B</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">C</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">310</SimpleData>
+		<SimpleData name="GEM_NAMEN">DE BILT</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.20458127344679,52.1303671081336 5.20332653591525,52.1301114232964 5.2032193340094,52.1300772816387 5.20307552381084,52.1299958958493 5.20297473621335,52.1298938148021 5.20295176871127,52.1298518288698 5.20275721610092,52.1298007700599 5.20263991425456,52.1297688857009 5.20242541398129,52.1297105686591 5.20241294072857,52.1297071786344 5.20239714282198,52.1297028848232 5.20216115473213,52.1296387812061 5.20214555988316,52.1296345414406 5.2018777392705,52.1295624059988 5.20182400101658,52.1295471768642 5.19992821275864,52.1290099553046 5.19894499804172,52.1287352820749 5.19800811446139,52.1284822819579 5.19782612958268,52.128434659392 5.19770371584608,52.1284019264116 5.19723878315878,52.1282792030651 5.19639167639235,52.1280563722271 5.19617231929299,52.1283864697045 5.19607060642585,52.1285395320227 5.19602720248126,52.1285977920354 5.19599236181624,52.1286445544342 5.19583832225692,52.1288792772497 5.19579692766004,52.1289423328571 5.19571912096353,52.1290609217084 5.19567829845034,52.129123106502 5.19545597355665,52.1294618621076 5.19543036556261,52.1295008823685 5.19544205972631,52.129515363123 5.19548899269928,52.1295335322 5.19658098249879,52.1298101966994 5.19700356804978,52.1299447114284 5.19716780512074,52.1300209317397 5.1973319821601,52.1301116260913 5.19745495869524,52.1302167135315 5.19762454639015,52.1304195394356 5.19766116197405,52.1304605296827 5.19769554100184,52.1304990263078 5.19779059214469,52.1304772033617 5.19973458968856,52.1295120316084 5.20030202552285,52.1298394651793 5.20049331172216,52.1299586790219 5.20066774672533,52.1300495537609 5.20083880842107,52.1301194969679 5.20087499814722,52.1301334963507 5.20095251328441,52.1301592704546 5.20119017488332,52.1302383082626 5.20158132773403,52.1303504379061 5.20188497966104,52.130419259782 5.20214779690539,52.1304700299096 5.20253877343845,52.1305303243172 5.20259490640738,52.1305391016909 5.20267325013342,52.1305513489948 5.20337168210393,52.1306839782092 5.20350012684044,52.130720149896 5.20359350681444,52.1307526681911 5.2036926538652,52.1308067771843 5.20378590130065,52.1308716735874 5.20386740602715,52.1309545325806 5.20433333066428,52.131388567974 5.20493877056475,52.1312355403248 5.2052040365619,52.1310777613713 5.20519236814224,52.1309305202031 5.20478920813106,52.1305184278471 5.20458127344679,52.1303671081336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>DE BILT - Ambachtsstraat</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">4667</SimpleData>
+		<SimpleData name="PLAN_NAAM">Ambachtsstraat</SimpleData>
+		<SimpleData name="KERN_NAAM">DE BILT</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">DE BILT</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">1.40</SimpleData>
+		<SimpleData name="HA_NETTO">1.10</SimpleData>
+		<SimpleData name="HA_UITGEG">1.10</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1995</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">4</SimpleData>
+		<SimpleData name="EXT_BEREIK">B</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">NEE</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">310</SimpleData>
+		<SimpleData name="GEM_NAMEN">DE BILT</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.18525208355529,52.1095663832169 5.18551609637371,52.1094986886038 5.18553375009768,52.1094943146537 5.18555266058689,52.1094896372566 5.18555418047646,52.1094892533696 5.18563629648443,52.1094689189918 5.18568367503167,52.1094571806867 5.18575753403521,52.1094388903762 5.18608110779999,52.1093573009415 5.18662489080472,52.1092191551081 5.18653421025303,52.1090890880425 5.18651539828929,52.109062109955 5.1863294129846,52.1087886654283 5.18632499329322,52.1087814225454 5.18621933314312,52.1086263520058 5.18601553502366,52.1083286628797 5.1860141137983,52.1083265932107 5.18599940876553,52.1083051137225 5.18598409337058,52.1083089884016 5.18590903660752,52.108327887997 5.18583288191591,52.1083474687601 5.18574468566364,52.1083700039463 5.18564703455908,52.1083948238466 5.18557087862579,52.1084146291389 5.18549581640341,52.1084346609527 5.18541966138963,52.1084542324603 5.18534166900475,52.1084733693498 5.18526733952736,52.1084927191822 5.18518827629588,52.1085129866279 5.18511125721759,52.1085331227021 5.18508552086717,52.1085398465912 5.18497037439774,52.1085694355586 5.18491878673745,52.1085824606355 5.18490003685145,52.1085872011228 5.18483371667283,52.1086042724711 5.18472876911262,52.1086315957401 5.18465371026007,52.1086507192333 5.18458119640405,52.1086687145593 5.1845032012904,52.1086882913025 5.18443068833161,52.108706061837 5.18437253927354,52.1087205943723 5.18435598160053,52.1087247363448 5.18428418583192,52.1087420586213 5.18420401333706,52.1087620987984 5.18421083079898,52.1087716468209 5.18421868993044,52.1087832548923 5.18441789588788,52.1090774249048 5.18442151916448,52.1090831834667 5.18442208442999,52.1090840742525 5.18453146556777,52.1092383169043 5.18453393052243,52.1092419882517 5.18453593153481,52.1092449577364 5.18479135026876,52.1096245550166 5.18482491301127,52.1096723749389 5.18490253223773,52.1096523389504 5.1849566538886,52.1096409180932 5.18496743932551,52.1096381952368 5.18509062430246,52.1096070561307 5.185175036783,52.1095857912543 5.18525208355529,52.1095663832169</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>DE BILT - Weltevreden</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">4734</SimpleData>
+		<SimpleData name="PLAN_NAAM">Weltevreden</SimpleData>
+		<SimpleData name="KERN_NAAM">DE BILT</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">DE BILT</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">6.60</SimpleData>
+		<SimpleData name="HA_NETTO">6.60</SimpleData>
+		<SimpleData name="HA_UITGEG">6.60</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1985</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">4</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">NEE</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">310</SimpleData>
+		<SimpleData name="GEM_NAMEN">DE BILT</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.1726214209281,52.1115130737347 5.17186206668447,52.1117054448663 5.17141034415661,52.1118205826612 5.17144950848224,52.1118854849988 5.17148246266122,52.1119387185311 5.17175278612875,52.11234405085 5.17178566502905,52.112409541742 5.17206918364446,52.1128353469983 5.17213508167721,52.1129417955643 5.17225761143296,52.1131290057542 5.17253878208251,52.113558560606 5.17317665482766,52.1145448778099 5.17322360251972,52.1145998620612 5.17344223638975,52.1149523369205 5.17362380581963,52.1152198293516 5.17367402520678,52.1152938157355 5.17381234031948,52.1152604777891 5.17376707811615,52.1151853154889 5.17417973758042,52.1150859023455 5.1749374690843,52.1149033555727 5.17482101317059,52.1147372813419 5.17474469358537,52.1146284604777 5.17459879172084,52.1144279356136 5.17448486177021,52.1142800374633 5.17431724722337,52.1140624318411 5.17353659619047,52.1130641164914 5.17370362452013,52.1130083968316 5.17347108685166,52.1126947792131 5.17326327760357,52.1124230701407 5.17294597883723,52.1120082115593 5.17273194587553,52.1117283492034 5.1727803533595,52.1117102543428 5.1726214209281,52.1115130737347</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>DE BILT - Molenkamp</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">155042</SimpleData>
+		<SimpleData name="PLAN_NAAM">Molenkamp</SimpleData>
+		<SimpleData name="KERN_NAAM">DE BILT</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">DE BILT</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">1.00</SimpleData>
+		<SimpleData name="HA_NETTO">1.00</SimpleData>
+		<SimpleData name="HA_UITGEG">1.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1960</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">4</SimpleData>
+		<SimpleData name="EXT_BEREIK">B</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">B</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">A</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">310</SimpleData>
+		<SimpleData name="GEM_NAMEN">DE BILT</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.1806774431255,52.1065531296416 5.18065893809737,52.1065248469775 5.18027276684685,52.1066281445752 5.18016343320974,52.1066573885175 5.17994023492011,52.1067170815206 5.17994012896109,52.1067399468725 5.18027298105056,52.1072759389171 5.18033352340666,52.1072929785425 5.18036085915629,52.107300234873 5.1803667850932,52.1073318920996 5.18037218408871,52.1073607081859 5.1806698856218,52.1077977961067 5.18068651584074,52.1078222007432 5.18071183085462,52.1078593655979 5.18085479042463,52.1080692434346 5.18106505261171,52.1083471072791 5.18149914930592,52.1082387773917 5.18146100573813,52.1081659887753 5.18169158281793,52.1080972853749 5.18166458442887,52.1080568066123 5.18163716998636,52.1080157105397 5.18160919015091,52.1079737775888 5.18158139884871,52.1079321235884 5.18155388308229,52.1078908745224 5.1815367183494,52.1078651478377 5.18152623686136,52.1078494364737 5.18149718453717,52.1078058747926 5.18143390453809,52.1077110036917 5.18139907955625,52.1077260607976 5.18135586820353,52.10766030991 5.18133844452705,52.1076338007853 5.18134874465502,52.1076286326699 5.18137620410262,52.1076217777817 5.18139161734024,52.1076179299365 5.18135851256698,52.1075646639694 5.18133902386416,52.1075333066957 5.18133564623784,52.1075282045915 5.18130914722719,52.1074881526467 5.18125833841317,52.1074113242014 5.18123312963932,52.1073732338805 5.18117621820988,52.1072871910051 5.18114921219818,52.1072463561787 5.18112210472064,52.1072053773603 5.18109431608903,52.1071633457463 5.18106728115751,52.1071224838856 5.18104139142496,52.1070833587088 5.18101316802541,52.1070406791768 5.18098488666562,52.1069979186443 5.18095951903689,52.1069595583433 5.18093171607257,52.1069175356518 5.18090407264642,52.1068757469212 5.18089491137206,52.1068618893399 5.18086877205584,52.1068231411837 5.18084390721582,52.1067865793411 5.18081995860578,52.106750756114 5.18079859903101,52.1067169327537 5.18077427508854,52.1066802190456 5.18074675666223,52.1066873073794 5.18073583248409,52.1066695908368 5.18066082694658,52.1065573968259 5.1806774431255,52.1065531296416</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>DE BILT - Kon. Wilhelminaweg/Groenekanseweg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">155051</SimpleData>
+		<SimpleData name="PLAN_NAAM">Kon. Wilhelminaweg/Groenekanseweg</SimpleData>
+		<SimpleData name="KERN_NAAM">GROENEKAN</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">DE BILT</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">5.00</SimpleData>
+		<SimpleData name="HA_NETTO">3.00</SimpleData>
+		<SimpleData name="HA_UITGEG">3.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1960</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">3</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">B</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">NEE</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">310</SimpleData>
+		<SimpleData name="GEM_NAMEN">DE BILT</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.14567998808626,52.1236775401739 5.14393979712428,52.1211583282189 5.1433933282328,52.1212909242873 5.14337263460944,52.1212962741089 5.14345553489718,52.1214186734063 5.14420223276069,52.1225115743179 5.14478685603178,52.1233750506089 5.14498056667792,52.1236583914007 5.14522425274394,52.1240199396415 5.14524489647971,52.124014777558 5.14574915779496,52.1238886843821 5.14576826548836,52.1238839041698 5.1457735643217,52.1238523330002 5.14567998808626,52.1236775401739</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.14314788608025,52.1214789489483 5.14275134357972,52.1209508446638 5.14232780919505,52.1210482699826 5.14194908049966,52.1211353857649 5.14193031120751,52.1211397025087 5.14195066703468,52.1211761231354 5.14224231621815,52.1216854323365 5.14266877519964,52.1224243138775 5.14300684105977,52.1230119854799 5.14322894097368,52.123394147442 5.14349191521948,52.1238464103464 5.14378463329865,52.1243694520276 5.14406321274293,52.1248354702505 5.14419383375568,52.125010125045 5.14423159651938,52.1250637353375 5.14426117280647,52.125105725102 5.14428680706891,52.1251421254441 5.14440862933918,52.125267543425 5.14470749184574,52.1251894230286 5.14545753845545,52.1249838962904 5.14551662503709,52.1249695648848 5.14414822654172,52.1229374407248 5.14314788608025,52.1214789489483</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BUNNIK - T Zand</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">4664</SimpleData>
+		<SimpleData name="PLAN_NAAM">T Zand</SimpleData>
+		<SimpleData name="KERN_NAAM">ODIJK</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BUNNIK</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">1.00</SimpleData>
+		<SimpleData name="HA_NETTO">0.63</SimpleData>
+		<SimpleData name="HA_UITGEG">0.63</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1995</SimpleData>
+		<SimpleData name="MILIEUZONE">NEE</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">2</SimpleData>
+		<SimpleData name="EXT_BEREIK">B</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">A</SimpleData>
+		<SimpleData name="HA_BRTOUD">1.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">1.00</SimpleData>
+		<SimpleData name="GEM_CODES">312</SimpleData>
+		<SimpleData name="GEM_NAMEN">BUNNIK</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.23817157322315,52.0515777675182 5.23817475997578,52.0515621537493 5.23810607712348,52.0515585669092 5.23787618805228,52.0515399761082 5.23776339635447,52.051853319778 5.23773738392956,52.0518501861752 5.23772055523547,52.051848160293 5.23768844797897,52.0519358346641 5.23766927731546,52.0519881836484 5.23764970872447,52.052041638081 5.23763053796839,52.0520939876067 5.23761161688107,52.0521456357996 5.23761130786942,52.0521465076649 5.23760662924406,52.0521592734419 5.23758244617372,52.0522238221677 5.23758138678531,52.0522266339905 5.23756498505293,52.052270448222 5.23755527589075,52.0522963578517 5.23754933313986,52.0523122138722 5.23753524078919,52.0523498023448 5.2375156177643,52.0524021419493 5.23749753901472,52.0524503493404 5.23750938609709,52.0524565299807 5.23755582061595,52.0524564539755 5.23758970066319,52.0524568475227 5.23765128019962,52.0524575642091 5.23770968227286,52.0524582400789 5.23778202079555,52.0524589610126 5.23789657973174,52.0524600952516 5.23791270362677,52.0524600706853 5.23800313794214,52.0524599602418 5.23804355177512,52.0524599033059 5.23809039246318,52.0524602412402 5.23815590946435,52.05246071084 5.23821780490963,52.0524673145436 5.23826758955745,52.0524726263486 5.23827257355223,52.0524731538046 5.23841596328525,52.0524849835968 5.23847681408088,52.0524899949363 5.23850090877952,52.0524914181972 5.23859065421973,52.0524967352754 5.23871977075318,52.0525043851053 5.2388555655891,52.0525114858298 5.23894655177763,52.0525164629752 5.23898171100772,52.0525180712105 5.23903318024168,52.0525209671756 5.23918387097422,52.0525294346737 5.23919235398647,52.0525299127218 5.23934012930168,52.0525382233034 5.23942971571404,52.0525432520817 5.23946160867285,52.0525450447945 5.23951729070738,52.0525481345418 5.23960743164502,52.0525531276725 5.23969768911143,52.0525581389834 5.23981490645085,52.0525646349501 5.23972245463174,52.0523581904386 5.23968028820163,52.052356811196 5.23952336172008,52.0523516713975 5.23928434171444,52.0523420237978 5.23927024456597,52.0523416111261 5.23926240232585,52.0523413851416 5.23923847784338,52.0522795351142 5.23921659239368,52.0522229634262 5.23921141540943,52.052223487414 5.23919133317727,52.0521724636758 5.23917764306887,52.0521328898913 5.2391582542448,52.0520796649788 5.23915732916368,52.052077138111 5.2391387491086,52.0520261074713 5.2391475590111,52.0520248425156 5.23911110819754,52.0519289745989 5.23909385888377,52.0518856483684 5.23887048857054,52.0518833898853 5.23881991625006,52.0518828769529 5.23865592617138,52.0518804684084 5.23866121723722,52.051836928035 5.23851965100596,52.0518299185517 5.23848870449715,52.051828387357 5.23843168154724,52.0518255741137 5.23828494011869,52.0518183153411 5.23812394108643,52.0518110652391 5.23814332576102,52.0517161305383 5.23817157322315,52.0515777675182</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BUNNIK - Industriegebied Oost/De Rumpst</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">4929</SimpleData>
+		<SimpleData name="PLAN_NAAM">Industriegebied Oost/De Rumpst</SimpleData>
+		<SimpleData name="KERN_NAAM">BUNNIK</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BUNNIK</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">23.50</SimpleData>
+		<SimpleData name="HA_NETTO">18.50</SimpleData>
+		<SimpleData name="HA_UITGEG">18.50</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1998</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">2</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">A</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">5.00</SimpleData>
+		<SimpleData name="HA_REVITAL">3.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">5.00</SimpleData>
+		<SimpleData name="GEM_CODES">312</SimpleData>
+		<SimpleData name="GEM_NAMEN">BUNNIK</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.22147670502675,52.0639578351897 5.21981346364484,52.0627869816403 5.21833299624323,52.0617544049321 5.21807640003267,52.061575435214 5.21804142185871,52.0615512970398 5.21800541043312,52.0615264469497 5.21748864320441,52.061163287115 5.2173970914934,52.0611919529242 5.21734797877589,52.0611575114312 5.21728266568174,52.0611117132694 5.21733222502372,52.0610476008666 5.21667760500762,52.0605870139381 5.21660500755208,52.060535937855 5.21655909560849,52.0605036220536 5.21643517230358,52.0604163963464 5.21659737472241,52.0603079260519 5.21675228647307,52.0601975786925 5.21651375509649,52.060042251681 5.21622432287559,52.0601501479208 5.21598149974471,52.060252016872 5.21580364181638,52.0603184229839 5.2157595429276,52.0603348790768 5.21550890530542,52.0604130794296 5.2152900089125,52.0604767912175 5.21506739843834,52.0605315727285 5.21460954288235,52.0606465349559 5.2145955011279,52.0606500643189 5.21449252391167,52.0606994472646 5.21431053727831,52.0608259210639 5.21421455501545,52.060834678933 5.21413775285698,52.0608345300103 5.21409156748022,52.0608321252143 5.21405000658715,52.0608329364385 5.21398213544275,52.0608346701224 5.21389367379957,52.0608369396447 5.21379400878751,52.0608403616658 5.21365431101299,52.0608565320405 5.21356881659735,52.060864306938 5.21349187193917,52.0608747275989 5.21344056185934,52.0608851859941 5.2123239688897,52.0612338277891 5.21195583717577,52.0614229656996 5.21138879865182,52.0616950626207 5.21106041787197,52.0618748015184 5.21084537686582,52.0619816984772 5.21031788063461,52.0622588470224 5.20904604386158,52.0629301389993 5.20899657814963,52.0629562467463 5.20894866167114,52.0629815295425 5.20893014630925,52.0629913075747 5.20891996147774,52.0629966853519 5.20889393247486,52.063007323724 5.20885553303912,52.0630230216658 5.20880411860709,52.0630440387698 5.20821174436204,52.0633659750968 5.2080062486828,52.0635329041145 5.20925132989054,52.0635739509924 5.20972414978408,52.0635799125977 5.2115386068536,52.0636417086424 5.21291010242349,52.0636925224317 5.21334555279945,52.0637086520145 5.21339489416383,52.0637104775043 5.21348743725823,52.0637139032318 5.21348015815656,52.0637559478761 5.21347754732959,52.0637709358651 5.21363027704018,52.0637774256943 5.21365875918016,52.0637128252039 5.21367291326174,52.0636879219999 5.21373222520306,52.063690858652 5.21384638546887,52.063696500382 5.21393890987621,52.0637010766667 5.21497736788783,52.0637524100324 5.21649138574552,52.0638038482883 5.21769748028568,52.0638465740215 5.21791883223636,52.0638544060605 5.21906144143388,52.063895903696 5.21948272155292,52.0639158727401 5.21972545386832,52.0639426427462 5.22125545772513,52.0639807945905 5.2213721379927,52.063983700051 5.22141825459061,52.0639861913106 5.22148415600673,52.0639897625545 5.22152521537522,52.0639919844387 5.22147670502675,52.0639578351897</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.2133832223635,52.0643167601169 5.21341597065186,52.0641603437334 5.21344869112678,52.0639844233177 5.21345612309656,52.0639445183984 5.21127880423399,52.0638637850252 5.21128091420968,52.0638425764365 5.20977869019088,52.0637820290067 5.207778982771,52.0636992960373 5.20777030268258,52.0637000201306 5.20753863368428,52.063792747498 5.20747500369816,52.0638196871716 5.20743696547808,52.0638357895109 5.20738262471902,52.0638587967494 5.20727920336192,52.0639025820329 5.20674294269974,52.0641895806941 5.20694110463512,52.0643183754282 5.20696623771961,52.064334709137 5.20701599985077,52.064366126631 5.20713436130902,52.0644408277777 5.20719765601953,52.0644032374735 5.207269554284,52.0644384815981 5.20729271024423,52.0644498326781 5.20727677991653,52.0644621850812 5.20728642902092,52.0644671074823 5.20733975185773,52.0644943055893 5.20739147320934,52.0645206926097 5.20741622802539,52.0645333226699 5.20743435298484,52.0645192663859 5.20746763862525,52.0645355855365 5.20747807728405,52.0645400592826 5.20749312689941,52.0645473268875 5.20781816558282,52.0647042679012 5.20782468616111,52.0647074146531 5.20790187884364,52.0647464056255 5.20799576853962,52.0647927741149 5.20823432955701,52.0649104489109 5.20835958547092,52.0649722345295 5.20855516876773,52.0650687123782 5.20869688484664,52.0651573518587 5.20885101045842,52.0652537571103 5.20887630841003,52.0652399451555 5.20887755098224,52.0652392728193 5.20889058794554,52.0652321647229 5.20898399193622,52.0651812268475 5.20898599360986,52.0651801425702 5.20902687149678,52.0651578510061 5.20905608705796,52.0651419142141 5.2090575776394,52.0651410985205 5.20912827042197,52.065102538582 5.20913320952515,52.0650998497279 5.20920784750839,52.0650591562038 5.20923592395279,52.065043586299 5.20923678655287,52.065043111426 5.20923916835422,52.0650417846934 5.20933700414653,52.0649874914746 5.20934023426152,52.0649856991707 5.2094034163262,52.0649506507732 5.20940553497387,52.0649494673706 5.20947020842533,52.0649135950115 5.20947245908621,52.0649123399417 5.20957119970092,52.0648575536134 5.2096705395226,52.0648024356596 5.20967219161364,52.0648015121293 5.20973725808881,52.0647654059676 5.20973934816474,52.0647642406194 5.20980472224602,52.0647279735982 5.20980654914246,52.0647269603606 5.20990518636569,52.0646722279063 5.20990748157755,52.0646709547916 5.21000649861449,52.064615997902 5.2100083986635,52.0646149403355 5.21007210599729,52.0645795955813 5.21007602293789,52.0645774175338 5.21013904331614,52.064542449689 5.21014243390056,52.0645405764128 5.21024333608792,52.0644845792873 5.21028105739737,52.0644636397577 5.21034059621464,52.0644311922833 5.21034310985845,52.0644298207418 5.21040799781671,52.0643944693477 5.21047485883006,52.0643580236975 5.21056481064685,52.0643089939657 5.21061216535317,52.0643005798792 5.21071885649086,52.0643665143354 5.21093715625153,52.0645016083287 5.21092232110589,52.0645102686639 5.21091455963045,52.0645147960829 5.21089681319388,52.0645218342735 5.21111254820507,52.0646605371076 5.2114563191808,52.064874993082 5.21159964132415,52.0649643956457 5.21202325351687,52.0652286731719 5.21211585589109,52.0652999061771 5.21212535037775,52.0653295358385 5.21211435583644,52.0653404978695 5.21216700082427,52.0653704307832 5.21220412066087,52.065391535782 5.21229551537141,52.0654435059012 5.21234799184234,52.065473346869 5.21273206851891,52.0651246623149 5.21288132341312,52.0650058272584 5.21299258900286,52.0648869353371 5.21306668977474,52.064792031973 5.21327575729225,52.0645243247813 5.21334104148134,52.0644276105086 5.2133832223635,52.0643167601169</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BUNNIK - Industriegebied Zuid/Kosterijland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">4930</SimpleData>
+		<SimpleData name="PLAN_NAAM">Industriegebied Zuid/Kosterijland</SimpleData>
+		<SimpleData name="KERN_NAAM">BUNNIK</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BUNNIK</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">24.30</SimpleData>
+		<SimpleData name="HA_NETTO">20.90</SimpleData>
+		<SimpleData name="HA_UITGEG">20.90</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1998</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">4</SimpleData>
+		<SimpleData name="EXT_BEREIK">C</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">A</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">5.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">312</SimpleData>
+		<SimpleData name="GEM_NAMEN">BUNNIK</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.21066670265071,52.0617447927969 5.21129992978401,52.0614216290252 5.21133663027656,52.0614409271848 5.21137664814022,52.0614619742449 5.21142676752358,52.061435668978 5.21187524182831,52.0612256379737 5.21179479590278,52.0611691990593 5.21118408758985,52.0608028154925 5.21115976425581,52.0607882185222 5.21098152826797,52.0608852390368 5.21089390839984,52.0609329340354 5.21073875144759,52.0610173892474 5.21037700657247,52.0608012390898 5.21016011385643,52.0606655173895 5.20994637876558,52.0607750665644 5.209717887765,52.0608950459546 5.20985359345485,52.0609852478691 5.20991345527914,52.061025029425 5.21002158703512,52.0610969079423 5.20997296830074,52.0611271246636 5.20992355981984,52.0611578525595 5.20985194226506,52.0611961510207 5.20983900973084,52.0612030701205 5.20934962658919,52.0614563093204 5.20860941926942,52.0618393409412 5.20852466816533,52.0618832000428 5.20842358245429,52.0619165365138 5.20827392126885,52.0619615735523 5.20812418781316,52.0620243884167 5.20798620811586,52.0621017640543 5.20792962490524,52.0621501689103 5.20791108525023,52.0621953954738 5.20790632309078,52.0622046368944 5.2079342795123,52.0622222781441 5.20798579965324,52.0622547857659 5.20884053531348,52.062794045368 5.20918320201851,52.0626048337763 5.2095632231628,52.0624014948029 5.20952480499352,52.0623776813604 5.20949572695096,52.0623596789243 5.21013756519996,52.0620169673203 5.21020629027764,52.061980264581 5.21036627442722,52.0618981109699 5.21066670265071,52.0617447927969</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.20572250808834,52.0632393021828 5.20587691112977,52.0632098885236 5.20603448274437,52.0631685427834 5.20622428956052,52.0631034726675 5.20637880470434,52.0630244891182 5.20654949192872,52.0629197788312 5.20668403989412,52.062826796658 5.206771103726,52.0627709162545 5.20744307200785,52.0623395975375 5.20752393539949,52.0622804803203 5.20754379479182,52.0622336292625 5.20754960058342,52.0621856683857 5.20752345790979,52.0621703218137 5.20721669005753,52.0619421499179 5.20676590584956,52.0616722319779 5.20670569539502,52.061636178148 5.20659109480734,52.0615675496864 5.20656942987416,52.0615486055297 5.20638108207928,52.0613838793988 5.20626305281305,52.0612653884763 5.20619577091398,52.0611574100735 5.20618127140616,52.0611009067161 5.20614577055779,52.0609624716782 5.20612043705764,52.0608806770714 5.20607750522282,52.0608452073682 5.20599481364545,52.0608123454285 5.2058865345516,52.0608003957984 5.2055359543189,52.0608338938519 5.20532453930499,52.0608574221823 5.2046307433863,52.0609346180946 5.20442319126705,52.0609545734398 5.20366609254908,52.0610273782851 5.20329214819382,52.0610582176128 5.20291827150251,52.0610746482609 5.20271392539929,52.0610743286523 5.20258693288012,52.0610741298504 5.20236280215042,52.0610864790372 5.20038315196574,52.0613065865918 5.19835154599395,52.0615461628531 5.19608106095702,52.0618104386024 5.1957488605678,52.0618490962664 5.19414291046399,52.0620364223862 5.19399417002539,52.0620537774482 5.19395008306463,52.0620685088655 5.19394510963495,52.0620720056491 5.19392198541194,52.0620881911681 5.19390182597253,52.0621202280929 5.1938316637585,52.0621116642033 5.19375485567556,52.0621022895233 5.19367877475306,52.0620867410662 5.19355575913583,52.0620901432903 5.19270597166039,52.062186228633 5.19169057418074,52.0622973948996 5.19170910991072,52.0623677569765 5.191723684802,52.0624230849765 5.19178221739391,52.0624566536448 5.19175720925801,52.0625233310614 5.19161960556196,52.0629384062849 5.19292994808836,52.0629844792762 5.19293965910545,52.0629882344629 5.19507396372784,52.0630675378503 5.19613052623783,52.0631016931043 5.19620448313834,52.0631337924024 5.19623936354555,52.063103244218 5.19628074320369,52.0630670176796 5.19639947214054,52.0630469055192 5.19655455559909,52.063023284561 5.19666821305398,52.0630229915853 5.20051539506757,52.063146818935 5.20057512871422,52.0631487825532 5.20057613804363,52.0631165260167 5.20057829866491,52.063080954533 5.20071864740684,52.0630871809295 5.20444541615192,52.0632161626388 5.20486290599012,52.0632285115797 5.20504790956023,52.063234307045 5.20509288983908,52.0632323813152 5.20525663536905,52.0632544213465 5.20557144864599,52.0632568932123 5.20572250808834,52.0632393021828</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BUNNIK - De Raaphof</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">26201005</SimpleData>
+		<SimpleData name="PLAN_NAAM">De Raaphof</SimpleData>
+		<SimpleData name="KERN_NAAM">Bunnik</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BUNNIK</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">8.00</SimpleData>
+		<SimpleData name="HA_NETTO">4.00</SimpleData>
+		<SimpleData name="HA_UITGEG">4.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1970</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">3</SimpleData>
+		<SimpleData name="MAX_MILIEU">3</SimpleData>
+		<SimpleData name="EXT_BEREIK">B</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">D</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">312</SimpleData>
+		<SimpleData name="GEM_NAMEN">BUNNIK</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.21428258386802,52.055164307357 5.21299029377252,52.0559702776913 5.2140407288815,52.0566391893672 5.21467795720079,52.0570354284021 5.21528950420178,52.0574092199228 5.21563453560668,52.0576200977948 5.21617314623342,52.0579491162092 5.21608401820662,52.0580090091285 5.21616909051535,52.0580643288911 5.2160494008567,52.0581430072208 5.21634719939475,52.0583195429221 5.21645833794481,52.0582461095873 5.21708729446283,52.0586283563807 5.21720783539845,52.0587053695015 5.21739326974365,52.0587383260722 5.21753891010617,52.0587794138807 5.21778377968699,52.0588696918614 5.21785250521451,52.0588838388744 5.21793331648914,52.0588909203647 5.21801365934926,52.0588443606234 5.21808655026887,52.0588020773624 5.21864020617405,52.0584621771521 5.21865952148291,52.0584518413677 5.21921131004982,52.058156435708 5.21931781604808,52.0581040610989 5.21951445110821,52.0580153208198 5.21980761128698,52.0579027949721 5.21989541469791,52.0578723511174 5.22009334223172,52.0578037114673 5.22004632412415,52.0577712248321 5.21983326487798,52.0576240750778 5.21959210791251,52.0574736762912 5.2185920214494,52.0568722591468 5.21812488798453,52.0565834841403 5.2168268421762,52.0557810033577 5.21681887138167,52.0557760753789 5.2163537557218,52.0560536983843 5.21631912785996,52.0560727769614 5.21629015385898,52.0560887427999 5.21603499810271,52.0562365499108 5.21569886851123,52.0560349172235 5.21536150942151,52.0558302705677 5.21428258386802,52.055164307357</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BUNNIK - Burgweg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">155060</SimpleData>
+		<SimpleData name="PLAN_NAAM">Burgweg</SimpleData>
+		<SimpleData name="KERN_NAAM">GRONINGEN</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BUNNIK</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">7.00</SimpleData>
+		<SimpleData name="HA_NETTO">5.50</SimpleData>
+		<SimpleData name="HA_UITGEG">5.50</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">110.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">110.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">2009</SimpleData>
+		<SimpleData name="MILIEUZONE">NEE</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">2</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">A</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">NEE</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">312</SimpleData>
+		<SimpleData name="GEM_NAMEN">BUNNIK</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.21643224972589,52.0410261237674 5.21692850786633,52.0405627317851 5.21697006256653,52.0405241518211 5.21701009596934,52.0404869811695 5.21713670001686,52.0403666873499 5.21715764046959,52.0403215954232 5.21692346192112,52.0402487610524 5.21684444356088,52.0401278285168 5.21674042950472,52.0399686603006 5.21659692498561,52.0399132315076 5.21547575637145,52.0395656398995 5.21541694338732,52.0395473623684 5.21534453429085,52.0395248671657 5.21437418989285,52.0392226794273 5.21353909632243,52.0389662791752 5.21344199975315,52.0389399627865 5.21333692012964,52.0389127803847 5.21325590768473,52.0388918264563 5.21312697479405,52.0388579487641 5.21304530851972,52.0389522033119 5.21240161045106,52.0397261695947 5.21209507632629,52.0400979927167 5.21206574270873,52.0401335784613 5.21204111153619,52.040163444996 5.21197890834145,52.0402333790583 5.21241175089148,52.0403536771353 5.21240297861504,52.0403732883168 5.21236485114622,52.0404089400885 5.21206654731686,52.0406343218608 5.21256114762959,52.0408185243121 5.21387756991758,52.0412751226369 5.21554847878202,52.0418428748304 5.21561478493192,52.0417815917627 5.21643224972589,52.0410261237674</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BUNSCHOTEN - Zuidwenk</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">1255</SimpleData>
+		<SimpleData name="PLAN_NAAM">Zuidwenk</SimpleData>
+		<SimpleData name="KERN_NAAM">BUNSCHOTEN</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BUNSCHOTEN</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">24.60</SimpleData>
+		<SimpleData name="HA_NETTO">19.00</SimpleData>
+		<SimpleData name="HA_UITGEG">19.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1965</SimpleData>
+		<SimpleData name="MILIEUZONE">NEE</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">5</SimpleData>
+		<SimpleData name="EXT_BEREIK">C</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">B</SimpleData>
+		<SimpleData name="HA_BRTOUD">20.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">F</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">20.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">313</SimpleData>
+		<SimpleData name="GEM_NAMEN">BUNSCHOTEN</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.38307486757615,52.2533420940671 5.38311760653621,52.2533160312873 5.38314426364024,52.2532764501009 5.38317615913027,52.2532826346292 5.38322748832611,52.2532926038133 5.38335899303681,52.2533232922457 5.38350368331969,52.2533285272791 5.38359741346295,52.253323730608 5.38379791482836,52.253290903816 5.38418431138794,52.2532089003752 5.38429833336191,52.2531882850717 5.3845833999134,52.2531284330271 5.38505846532946,52.2530286954602 5.3856413103125,52.2529063172716 5.38572395057217,52.2528945716902 5.38577006979233,52.2529013755603 5.38580947785606,52.2529163135392 5.3860049364188,52.2530702490993 5.38607976711083,52.253112734833 5.38616224867172,52.2531393575769 5.3862391333764,52.2531493256397 5.38631048264619,52.2531526422071 5.38640917387198,52.2531459562547 5.38697217335659,52.2530466969136 5.38720394375866,52.2529985762551 5.38748162105421,52.252926592182 5.38777710464904,52.2528098577439 5.38799595156885,52.2527164730943 5.38840813235927,52.2525187830364 5.38848273037691,52.2524830016651 5.38851973743124,52.2524763234636 5.38852831726511,52.2524215069415 5.38854001229456,52.2523468453069 5.38841014500337,52.2522490779792 5.38827472450055,52.2521349977358 5.38817161114274,52.2520274329453 5.38804105208871,52.2518546893888 5.38800824761313,52.2517927637727 5.38799130282157,52.2517180843125 5.38798463880274,52.2516886766169 5.38797952749412,52.2516661803439 5.38778219628942,52.2507960660173 5.38755960951566,52.2496445177379 5.38747298826267,52.249249765739 5.3874632645592,52.2492051955256 5.38742672777782,52.2490378520498 5.38726641984059,52.2483033983485 5.38721378087342,52.2483139320888 5.38720392642555,52.2483159003739 5.38716536751579,52.2483235217114 5.38714292285131,52.2483279980685 5.3849488884291,52.2487651272074 5.38483307347147,52.2487882237576 5.3847184301204,52.2488111040804 5.38463276258283,52.2488281974674 5.38377119554027,52.2490000768093 5.38368411332399,52.2490174475939 5.38337539330602,52.2490790319105 5.3832437935238,52.2491048495144 5.38249995047827,52.2492439988809 5.38232810533537,52.249276914606 5.38127604915169,52.2494783918852 5.38015937587169,52.2496926366352 5.38019327440657,52.2497020487805 5.38016503784143,52.2497279588619 5.38016518019914,52.249749502874 5.38047029886779,52.2503209626557 5.38049765999766,52.2503722127083 5.38074731568699,52.2508398061745 5.38088078443754,52.2511066871413 5.38092729590309,52.2511997133512 5.38096928435088,52.2512836610207 5.38102611689072,52.2513972964036 5.38106554294636,52.2514761482368 5.38115625772339,52.2516575347745 5.3811941782393,52.2517221768732 5.38126502604695,52.2518429760534 5.38132411413612,52.2519437408389 5.38139594089078,52.2520895800148 5.38142183991921,52.2521421863807 5.3814487466301,52.252221019925 5.38148735292861,52.2523341593921 5.38152534784477,52.252513827201 5.38152639827239,52.25251962399 5.38155350223542,52.2526693793953 5.3816167086786,52.2529275295045 5.38166162873184,52.2532296460742 5.38166560663322,52.2532938821568 5.38166905374759,52.253349489757 5.38168020607212,52.2535294431613 5.3816967969353,52.2535660061014 5.38176262086808,52.253605914782 5.38180639158062,52.2536092514857 5.38187065415792,52.2536025941265 5.38290949258354,52.2534062255599 5.38297509132985,52.2533862478185 5.38305156636563,52.2533563028915 5.38307486757615,52.2533420940671</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BUNSCHOTEN - De Kronkels</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">1254</SimpleData>
+		<SimpleData name="PLAN_NAAM">De Kronkels</SimpleData>
+		<SimpleData name="KERN_NAAM">BUNSCHOTEN</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">BUNSCHOTEN</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie UTRECHT</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">52.00</SimpleData>
+		<SimpleData name="HA_NETTO">36.91</SimpleData>
+		<SimpleData name="HA_UITGEG">36.91</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="START_JAAR">1965</SimpleData>
+		<SimpleData name="MILIEUZONE">JA</SimpleData>
+		<SimpleData name="WLOC_TYPE">B</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">4</SimpleData>
+		<SimpleData name="EXT_BEREIK">A</SimpleData>
+		<SimpleData name="PARKEER">B</SimpleData>
+		<SimpleData name="PARK_MGT">NEE</SimpleData>
+		<SimpleData name="SPOOR_ONTS">A</SimpleData>
+		<SimpleData name="WATER_ONTS">E</SimpleData>
+		<SimpleData name="VEROUDERD">JA</SimpleData>
+		<SimpleData name="OORZ_OUD">B</SimpleData>
+		<SimpleData name="HA_BRTOUD">52.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">J</SimpleData>
+		<SimpleData name="HSTRC_FASE">F</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">52.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">313</SimpleData>
+		<SimpleData name="GEM_NAMEN">BUNSCHOTEN</SimpleData>
+		<SimpleData name="PROV_CODES">26</SimpleData>
+		<SimpleData name="PROV_NAMEN">UTRECHT</SimpleData>
+		<SimpleData name="COROPCODES">17</SimpleData>
+		<SimpleData name="COROPNAMEN">UTRECHT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>5.36999084051357,52.2274070873855 5.36997923400788,52.2274081192202 5.36929323607046,52.227469018306 5.36700562290793,52.2276720735369 5.36400115231774,52.2279386793946 5.36376901630374,52.2280264630917 5.36369177145994,52.2280408999898 5.36361793767984,52.2280546907469 5.36356764672795,52.228055354958 5.36353528524474,52.2280557796998 5.36345791716195,52.2280277223446 5.36337232488968,52.2279966883817 5.36170032708097,52.2281518305237 5.36122242348414,52.2281876853996 5.36118063464267,52.2281908239662 5.36113117521744,52.2281945340937 5.35996019161774,52.2282473265924 5.35892751070556,52.2282683320525 5.35889687573366,52.2282689539689 5.35885475130141,52.2282698161535 5.35752077209675,52.2282969479603 5.35754372661946,52.2284007809224 5.35784478353118,52.2297624998049 5.35815041867912,52.2311450167203 5.35816429808753,52.2312077734888 5.35825059229355,52.2311989592507 5.35826250275873,52.2312507139107 5.35857715703951,52.2326164786975 5.35865262635128,52.2329440662629 5.35878376488305,52.2329277754955 5.3646508150538,52.2321987835343 5.3647507405835,52.2321851588967 5.36498261652869,52.2321590481542 5.36499854185487,52.2321607226266 5.3650113144063,52.2322037045396 5.365026161644,52.2322536526066 5.36521204820336,52.2328793549835 5.36529755180471,52.2330534469325 5.36538383468177,52.2331623861531 5.36550759862281,52.2332571131603 5.36567208918028,52.2333460319992 5.36582501492443,52.2334082374622 5.36599594809288,52.2334638756892 5.36669285200447,52.2336450567332 5.36713939938756,52.2337655339437 5.36730972768708,52.2338057914968 5.36738700297223,52.2338071615471 5.36759263892396,52.2338175405547 5.36767319091154,52.2338242227796 5.36776792693744,52.2338320576203 5.3678398754315,52.2338315032118 5.36796687432153,52.2337368912823 5.36801558144317,52.2336898300157 5.36813069146346,52.2335316902577 5.36821258519095,52.2334110866187 5.36849209853602,52.2329993995551 5.36883670392764,52.2324740264419 5.36897410981464,52.2322955048702 5.36914610807,52.2321054387409 5.36931888710107,52.231936556683 5.36983907112719,52.2314759547366 5.37014826918878,52.2312642647506 5.37019715982713,52.2312218764253 5.37022462848498,52.2311980624302 5.3702664947595,52.2311516915382 5.37034572473291,52.2310435160891 5.37042530471764,52.2309348469191 5.37048795043034,52.2308249975366 5.37049849445475,52.2308101244767 5.3705196566778,52.23078026097 5.37054087608394,52.2307527162822 5.37044656958259,52.2307089412655 5.37047715551204,52.2306857212026 5.37051352600448,52.2306170955159 5.3707110408018,52.2301001709309 5.37069973682286,52.2299931066971 5.370721682466,52.229940072659 5.37075375040574,52.2299055279983 5.37075259038106,52.2298749240835 5.37057977356467,52.2293122815379 5.3703659639264,52.2286310381138 5.37034205158812,52.2285809637814 5.37029566218565,52.2285177819594 5.37017765210061,52.228388996551 5.3701407248107,52.2283486898446 5.37012531412882,52.2283052050379 5.37011353964907,52.2282469350748 5.37010838226082,52.2282213818272 5.3701209007915,52.2280165334698 5.37012196153908,52.2279991422263 5.37011200976533,52.2278815625016 5.36999084051357,52.2274070873855</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>ENSCHEDE - LUCHTHAVEN HTSM/AMM</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">232016007</SimpleData>
+		<SimpleData name="PLAN_NAAM">LUCHTHAVEN HTSM/AMM</SimpleData>
+		<SimpleData name="KERN_NAAM">ENSCHEDE</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">ENSCHEDE</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie OVERIJSSEL</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">5.00</SimpleData>
+		<SimpleData name="HA_NETTO">5.00</SimpleData>
+		<SimpleData name="HA_UITGEG">0.00</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">5.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">5.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MILIEUZONE">ONBEKEND</SimpleData>
+		<SimpleData name="WLOC_TYPE">X</SimpleData>
+		<SimpleData name="PLAN_FASE">4</SimpleData>
+		<SimpleData name="MAX_MILIEU">X</SimpleData>
+		<SimpleData name="EXT_BEREIK">X</SimpleData>
+		<SimpleData name="PARKEER">X</SimpleData>
+		<SimpleData name="PARK_MGT">ONBEKEND</SimpleData>
+		<SimpleData name="SPOOR_ONTS">X</SimpleData>
+		<SimpleData name="WATER_ONTS">X</SimpleData>
+		<SimpleData name="VEROUDERD">ONBEKEND</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">153</SimpleData>
+		<SimpleData name="GEM_NAMEN">ENSCHEDE</SimpleData>
+		<SimpleData name="PROV_CODES">23</SimpleData>
+		<SimpleData name="PROV_NAMEN">OVERIJSSEL</SimpleData>
+		<SimpleData name="COROPCODES">12</SimpleData>
+		<SimpleData name="COROPNAMEN">TWENTE</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>6.89288745265376,52.2195957514701 6.89425018036841,52.2191755968289 6.89400223797893,52.2186350961602 6.89288745265376,52.2195957514701</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>ENSCHEDE - ZUIDERVAL-KOTMANPLAATS</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Bedrijventerreinen">
+		<SimpleData name="RIN_NUMMER">558</SimpleData>
+		<SimpleData name="PLAN_NAAM">ZUIDERVAL-KOTMANPLAATS</SimpleData>
+		<SimpleData name="KERN_NAAM">ENSCHEDE</SimpleData>
+		<SimpleData name="STATUS">GEACCORDEERD</SimpleData>
+		<SimpleData name="TER_BEHEER">ENSCHEDE</SimpleData>
+		<SimpleData name="GEG_BEHEER">Provincie OVERIJSSEL</SimpleData>
+		<SimpleData name="VOL">JA</SimpleData>
+		<SimpleData name="HA_BRUTO">17.56</SimpleData>
+		<SimpleData name="HA_NETTO">14.78</SimpleData>
+		<SimpleData name="HA_UITGEG">14.78</SimpleData>
+		<SimpleData name="HA_UIT_HJR">0.00</SimpleData>
+		<SimpleData name="HA_TKPGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITGEM">0.00</SimpleData>
+		<SimpleData name="HA_UITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TUITGEM">0.00</SimpleData>
+		<SimpleData name="HA_TUITPAR">0.00</SimpleData>
+		<SimpleData name="HA_TOTTUIT">0.00</SimpleData>
+		<SimpleData name="HA_NTUITGM">0.00</SimpleData>
+		<SimpleData name="HA_NTUITPR">0.00</SimpleData>
+		<SimpleData name="HA_GRUITDL">0.00</SimpleData>
+		<SimpleData name="MN_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_VPRIJS">0.00</SimpleData>
+		<SimpleData name="MN_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MX_EPRIJS">0.00</SimpleData>
+		<SimpleData name="MILIEUZONE">ONBEKEND</SimpleData>
+		<SimpleData name="WLOC_TYPE">X</SimpleData>
+		<SimpleData name="PLAN_FASE">1</SimpleData>
+		<SimpleData name="MAX_MILIEU">X</SimpleData>
+		<SimpleData name="EXT_BEREIK">X</SimpleData>
+		<SimpleData name="PARKEER">X</SimpleData>
+		<SimpleData name="PARK_MGT">ONBEKEND</SimpleData>
+		<SimpleData name="SPOOR_ONTS">X</SimpleData>
+		<SimpleData name="WATER_ONTS">X</SimpleData>
+		<SimpleData name="VEROUDERD">ONBEKEND</SimpleData>
+		<SimpleData name="OORZ_OUD">X</SimpleData>
+		<SimpleData name="HA_BRTOUD">0.00</SimpleData>
+		<SimpleData name="HSTRC_PLAN">X</SimpleData>
+		<SimpleData name="HSTRC_FASE">X</SimpleData>
+		<SimpleData name="HA_FACELFT">0.00</SimpleData>
+		<SimpleData name="HA_REVITAL">0.00</SimpleData>
+		<SimpleData name="HA_ZREVIT">0.00</SimpleData>
+		<SimpleData name="HA_HERPROF">0.00</SimpleData>
+		<SimpleData name="HA_TRANSF">0.00</SimpleData>
+		<SimpleData name="GEM_CODES">153</SimpleData>
+		<SimpleData name="GEM_NAMEN">ENSCHEDE</SimpleData>
+		<SimpleData name="PROV_CODES">23</SimpleData>
+		<SimpleData name="PROV_NAMEN">OVERIJSSEL</SimpleData>
+		<SimpleData name="COROPCODES">12</SimpleData>
+		<SimpleData name="COROPNAMEN">TWENTE</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>6.8900160864077,52.2062300113744 6.89018708563122,52.2061700117861 6.89540108602306,52.2070000121591 6.89535908654102,52.206020011841 6.89437208635421,52.2060200118381 6.89392108663642,52.2046400117695 6.89432908619522,52.2045300115362 6.89364208638496,52.2031200117977 6.89430708626996,52.2030600115501 6.89392108616977,52.2023600119448 6.89359908683179,52.2016400121098 6.89061608679529,52.2016200120158 6.8900160864077,52.2062300113744</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
